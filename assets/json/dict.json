@@ -1,0 +1,1358 @@
+[
+    {
+        "finnish": "Hei!",
+        "English": "Hello!",
+        "Russian": "Привет!",
+        "Chapter": 1
+    },
+    {
+        "finnish": "ja",
+        "English": "and",
+        "Russian": "и",
+        "Chapter": 1
+    },
+    {
+        "finnish": "Tervetuloa!",
+        "English": "Welcome!",
+        "Russian": "Добро пожаловать!",
+        "Chapter": 1
+    },
+    {
+        "finnish": "Moi!",
+        "English": "Hi!",
+        "Russian": "Привет!",
+        "Chapter": 1
+    },
+    {
+        "finnish": "Anteeksi!",
+        "English": "Excuse me!",
+        "Russian": "Простите!",
+        "Chapter": 1
+    },
+    {
+        "finnish": "onko",
+        "English": "is",
+        "Russian": "есть ли",
+        "Chapter": 1
+    },
+    {
+        "finnish": "täällä",
+        "English": "here",
+        "Russian": "здесь",
+        "Chapter": 1
+    },
+    {
+        "finnish": "suonien kurssi",
+        "English": "course in Finnish",
+        "Russian": "курс финского языка",
+        "Chapter": 1
+    },
+    {
+        "finnish": "joo",
+        "English": "yes",
+        "Russian": "Да",
+        "Chapter": 1
+    },
+    {
+        "finnish": "Kuka sinä olet?",
+        "English": "Who are you?",
+        "Russian": "Кто ты?",
+        "Chapter": 1
+    },
+    {
+        "finnish": "minä",
+        "English": "I",
+        "Russian": "я",
+        "Chapter": 1
+    },
+    {
+        "finnish": "olla",
+        "English": "be",
+        "Russian": "быть",
+        "Chapter": 1
+    },
+    {
+        "finnish": "entä",
+        "English": "what about",
+        "Russian": "а",
+        "Chapter": 1
+    },
+    {
+        "finnish": "sinä",
+        "English": "you",
+        "Russian": "ты",
+        "Chapter": 1
+    },
+    {
+        "finnish": "Hauska tutustua!",
+        "English": "Nice to meet you!",
+        "Russian": "Очень приятно познакомиться!",
+        "Chapter": 1
+    },
+    {
+        "finnish": "Kiitos samoin!",
+        "English": "Likewise!",
+        "Russian": "Спасибо, мне тоже!",
+        "Chapter": 1
+    },
+    {
+        "finnish": "Mitä sinulle kuuluu?",
+        "English": "How are you?",
+        "Russian": "Как дела?",
+        "Chapter": 1
+    },
+    {
+        "finnish": "Minulle kuuluu hyvää.",
+        "English": "I’m fine.",
+        "Russian": "У меня все хорошо.",
+        "Chapter": 1
+    },
+    {
+        "finnish": "Entä sinulle?",
+        "English": "And you?",
+        "Russian": "А ты как?",
+        "Chapter": 1
+    },
+    {
+        "finnish": "Ihan hyvää, kiitos,",
+        "English": "I’m fine, thank you.",
+        "Russian": "Хорошо, спасибо,",
+        "Chapter": 1
+    },
+    {
+        "finnish": "hän",
+        "English": "he,she",
+        "Russian": "он/она",
+        "Chapter": 1
+    },
+    {
+        "finnish": "Kuinka vanha sinä olet?",
+        "English": "How old are you?",
+        "Russian": "Сколько тебе лет?",
+        "Chapter": 1
+    },
+    {
+        "finnish": "opettaja",
+        "English": "teacher",
+        "Russian": "учитель,учительница",
+        "Chapter": 1
+    },
+    {
+        "finnish": "tulla",
+        "English": "(to) come",
+        "Russian": "прийти,приехать",
+        "Chapter": 1
+    },
+    {
+        "finnish": "Huomenta!",
+        "English": "Good morning!",
+        "Russian": "Доброе утро!",
+        "Chapter": 1
+    },
+    {
+        "finnish": "Mikä sinun nimi on?",
+        "English": "What’s your name?",
+        "Russian": "Как тебя зовут?",
+        "Chapter": 1
+    },
+    {
+        "finnish": "Minun nimi on...",
+        "English": "My name is...",
+        "Russian": "Меня зовут...",
+        "Chapter": 1
+    },
+    {
+        "finnish": "Miten se kirjoitetaan?",
+        "English": "How do you spell it?",
+        "Russian": "Как это пишется?",
+        "Chapter": 1
+    },
+    {
+        "finnish": "etunimi",
+        "English": "first name",
+        "Russian": "имя",
+        "Chapter": 1
+    },
+    {
+        "finnish": "sukunimi",
+        "English": "last name",
+        "Russian": "фамилия",
+        "Chapter": 1
+    },
+    {
+        "finnish": "Huomenta!",
+        "English": "Morning!",
+        "Russian": "Доброе утро!",
+        "Chapter": 1
+    },
+    {
+        "finnish": "Hyvää huomenta!",
+        "English": "Good morning!",
+        "Russian": "Доброе утро!",
+        "Chapter": 1
+    },
+    {
+        "finnish": "Päivää!",
+        "English": "Afternoon!",
+        "Russian": "Здравствуйте!",
+        "Chapter": 1
+    },
+    {
+        "finnish": "Hyvää päivää!",
+        "English": "Good afternoon !",
+        "Russian": "Здравствуйте!",
+        "Chapter": 1
+    },
+    {
+        "finnish": "Iltaa!",
+        "English": "Evening!",
+        "Russian": "Добрый вечер!",
+        "Chapter": 1
+    },
+    {
+        "finnish": "Hyvää iltaa!",
+        "English": "Good evening!",
+        "Russian": "Добрый вечер!",
+        "Chapter": 1
+    },
+    {
+        "finnish": "Hyvää yötä!",
+        "English": "Good night!",
+        "Russian": "Спокойной ночи!",
+        "Chapter": 1
+    },
+    {
+        "finnish": "Nuku hyvin!",
+        "English": "Sleep well!",
+        "Russian": "Приятных снов!",
+        "Chapter": 1
+    },
+    {
+        "finnish": "Hei!",
+        "English": "Hello!",
+        "Russian": "Привет!",
+        "Chapter": 1
+    },
+    {
+        "finnish": "Moi!",
+        "English": "Hi!",
+        "Russian": "Привет!",
+        "Chapter": 1
+    },
+    {
+        "finnish": "Terve!",
+        "English": "Hi!",
+        "Russian": "Здорово! Привет!",
+        "Chapter": 1
+    },
+    {
+        "finnish": "Nähdään!",
+        "English": "See you!",
+        "Russian": "До встречи!",
+        "Chapter": 1
+    },
+    {
+        "finnish": "Hei hei!",
+        "English": "Bye bye!",
+        "Russian": "Пока!",
+        "Chapter": 1
+    },
+    {
+        "finnish": "Nähdään huomenna!",
+        "English": "See you tomorrow!",
+        "Russian": "Увидимся завтра!",
+        "Chapter": 1
+    },
+    {
+        "finnish": "Moi moi!",
+        "English": "Bye bye!",
+        "Russian": "Пока!",
+        "Chapter": 1
+    },
+    {
+        "finnish": "Moikka!",
+        "English": "Bye!",
+        "Russian": "Пока!",
+        "Chapter": 1
+    },
+    {
+        "finnish": "Heippa!",
+        "English": "Bye!",
+        "Russian": "Пока!",
+        "Chapter": 1
+    },
+    {
+        "finnish": "Näkemiin!",
+        "English": "Goodbye!",
+        "Russian": "Пока!",
+        "Chapter": 1
+    },
+    {
+        "finnish": "Joo.",
+        "English": "Yeah.",
+        "Russian": "Да.",
+        "Chapter": 1
+    },
+    {
+        "finnish": "Ei.",
+        "English": "No.",
+        "Russian": "Нет.",
+        "Chapter": 1
+    },
+    {
+        "finnish": "Kyllä.",
+        "English": "Yes.",
+        "Russian": "Да.",
+        "Chapter": 1
+    },
+    {
+        "finnish": "Ole hyvä!",
+        "English": "There you are!",
+        "Russian": "Пожалуйста!",
+        "Chapter": 1
+    },
+    {
+        "finnish": "Kiitos!",
+        "English": "Thank you!",
+        "Russian": "Спасибо!",
+        "Chapter": 1
+    },
+    {
+        "finnish": "Ei kestä!",
+        "English": "You’re welcome!",
+        "Russian": "Не за что!",
+        "Chapter": 1
+    },
+    {
+        "finnish": "Anteeksi!",
+        "English": "Sorry!",
+        "Russian": "Простите!",
+        "Chapter": 1
+    },
+    {
+        "finnish": "Ei se mitään!",
+        "English": "It’s all right!",
+        "Russian": "Ничего страшного!",
+        "Chapter": 1
+    },
+    {
+        "finnish": "Tervetuloa!",
+        "English": "Welcome!",
+        "Russian": "Добро пожаловать!",
+        "Chapter": 1
+    },
+    {
+        "finnish": "viikonpäivät",
+        "English": "days of the week",
+        "Russian": "дни недели",
+        "Chapter": 1
+    },
+    {
+        "finnish": "Mikä päivä tänään on?",
+        "English": "What day is it today?",
+        "Russian": "Какой сегодня день?",
+        "Chapter": 1
+    },
+    {
+        "finnish": "milloin",
+        "English": "when",
+        "Russian": "когда",
+        "Chapter": 1
+    },
+    {
+        "finnish": "Hauskaa viikonloppua!",
+        "English": "Have a nice weekend!",
+        "Russian": "Приятных выходных!",
+        "Chapter": 1
+    },
+    {
+        "finnish": "maanantai",
+        "English": "Monday",
+        "Russian": "понедельник",
+        "Chapter": 1
+    },
+    {
+        "finnish": "tiistai",
+        "English": "Tuesday",
+        "Russian": "вторник",
+        "Chapter": 1
+    },
+    {
+        "finnish": "keskiviikko",
+        "English": "Wednesday",
+        "Russian": "среда",
+        "Chapter": 1
+    },
+    {
+        "finnish": "torstai",
+        "English": "Thursday",
+        "Russian": "четверг",
+        "Chapter": 1
+    },
+    {
+        "finnish": "perjantai",
+        "English": "Friday",
+        "Russian": "пятница",
+        "Chapter": 1
+    },
+    {
+        "finnish": "lauantai",
+        "English": "Saturday",
+        "Russian": "суббота",
+        "Chapter": 1
+    },
+    {
+        "finnish": "sunnuntai",
+        "English": "Sunday",
+        "Russian": "воскресенье",
+        "Chapter": 1
+    },
+    {
+        "finnish": "viikonloppu",
+        "English": "weekend",
+        "Russian": "конец недели (суббота и воскресенье)",
+        "Chapter": 1
+    },
+    {
+        "finnish": "toissapäivänä",
+        "English": "day before yesterday",
+        "Russian": "позавчера",
+        "Chapter": 1
+    },
+    {
+        "finnish": "eilen",
+        "English": "yesterday",
+        "Russian": "вчера",
+        "Chapter": 1
+    },
+    {
+        "finnish": "tänään",
+        "English": "today",
+        "Russian": "сегодня",
+        "Chapter": 1
+    },
+    {
+        "finnish": "huomenna",
+        "English": "tomorrow",
+        "Russian": "завтра",
+        "Chapter": 1
+    },
+    {
+        "finnish": "ylihuomenna",
+        "English": "day after tomorrow",
+        "Russian": "послезавтра",
+        "Chapter": 1
+    },
+    {
+        "finnish": "nolla",
+        "English": "zero",
+        "Russian": "нуль",
+        "Chapter": 1
+    },
+    {
+        "finnish": "yksi",
+        "English": "one",
+        "Russian": "один",
+        "Chapter": 1
+    },
+    {
+        "finnish": "kaksi",
+        "English": "two",
+        "Russian": "два",
+        "Chapter": 1
+    },
+    {
+        "finnish": "kolme",
+        "English": "three",
+        "Russian": "три",
+        "Chapter": 1
+    },
+    {
+        "finnish": "neljä",
+        "English": "four",
+        "Russian": "четыре",
+        "Chapter": 1
+    },
+    {
+        "finnish": "viisi",
+        "English": "five",
+        "Russian": "пять",
+        "Chapter": 1
+    },
+    {
+        "finnish": "kuusi",
+        "English": "six",
+        "Russian": "шесть",
+        "Chapter": 1
+    },
+    {
+        "finnish": "seitsemän",
+        "English": "seven",
+        "Russian": "семь",
+        "Chapter": 1
+    },
+    {
+        "finnish": "kahdeksan",
+        "English": "eight",
+        "Russian": "восемь",
+        "Chapter": 1
+    },
+    {
+        "finnish": "yhdeksän",
+        "English": "nine",
+        "Russian": "девять",
+        "Chapter": 1
+    },
+    {
+        "finnish": "kymmenen",
+        "English": "ten",
+        "Russian": "десять",
+        "Chapter": 1
+    },
+    {
+        "finnish": "yksitoista",
+        "English": "eleven",
+        "Russian": "одиннадцать",
+        "Chapter": 1
+    },
+    {
+        "finnish": "kaksitoista",
+        "English": "twelve",
+        "Russian": "двенадцать",
+        "Chapter": 1
+    },
+    {
+        "finnish": "kolmetoista",
+        "English": "thirteen",
+        "Russian": "тринадцать",
+        "Chapter": 1
+    },
+    {
+        "finnish": "neljätoista",
+        "English": "fourteen",
+        "Russian": "четырнадцать",
+        "Chapter": 1
+    },
+    {
+        "finnish": "viisitoista",
+        "English": "fifteen",
+        "Russian": "пятнадцать",
+        "Chapter": 1
+    },
+    {
+        "finnish": "kuusitoista",
+        "English": "sixteen",
+        "Russian": "шестнадцать",
+        "Chapter": 1
+    },
+    {
+        "finnish": "seitsemäntoista",
+        "English": "seventeen",
+        "Russian": "семнадцать",
+        "Chapter": 1
+    },
+    {
+        "finnish": "kahdeksantoista",
+        "English": "eighteen",
+        "Russian": "восемнадцать",
+        "Chapter": 1
+    },
+    {
+        "finnish": "yhdeksäntoista",
+        "English": "nineteen",
+        "Russian": "девятнадцать",
+        "Chapter": 1
+    },
+    {
+        "finnish": "kaksikymmentä",
+        "English": "twenty",
+        "Russian": "двадцать",
+        "Chapter": 1
+    },
+    {
+        "finnish": "kaksikymmentäyksi",
+        "English": "twenty-one",
+        "Russian": "двадцать один",
+        "Chapter": 1
+    },
+    {
+        "finnish": "kaksikymmentäkaksi",
+        "English": "twenty-two",
+        "Russian": "двадцать два",
+        "Chapter": 1
+    },
+    {
+        "finnish": "kolmekymmentä",
+        "English": "thirty",
+        "Russian": "тридцать",
+        "Chapter": 1
+    },
+    {
+        "finnish": "neljäkymmentä",
+        "English": "forty",
+        "Russian": "сорок",
+        "Chapter": 1
+    },
+    {
+        "finnish": "viisikymmentä",
+        "English": "fifty",
+        "Russian": "пятьдесят",
+        "Chapter": 1
+    },
+    {
+        "finnish": "kuusikymmentä",
+        "English": "sixty",
+        "Russian": "шестьдесят",
+        "Chapter": 1
+    },
+    {
+        "finnish": "seitsemänkymmentä",
+        "English": "seventy",
+        "Russian": "семьдесят",
+        "Chapter": 1
+    },
+    {
+        "finnish": "kahdeksankymmentä",
+        "English": "eighty",
+        "Russian": "восемьдесят",
+        "Chapter": 1
+    },
+    {
+        "finnish": "yhdeksänkymmentä",
+        "English": "ninety",
+        "Russian": "девяносто",
+        "Chapter": 1
+    },
+    {
+        "finnish": "sata",
+        "English": "hundred",
+        "Russian": "сто",
+        "Chapter": 1
+    },
+    {
+        "finnish": "satayksi",
+        "English": "one hundred and one",
+        "Russian": "сто один",
+        "Chapter": 1
+    },
+    {
+        "finnish": "kaksisataa",
+        "English": "two hundred",
+        "Russian": "двести",
+        "Chapter": 1
+    },
+    {
+        "finnish": "kolmesataa",
+        "English": "three hundred",
+        "Russian": "триста",
+        "Chapter": 1
+    },
+    {
+        "finnish": "tuhat",
+        "English": "thousand",
+        "Russian": "тысяча",
+        "Chapter": 1
+    },
+    {
+        "finnish": "kaksituhatta",
+        "English": "two thousand",
+        "Russian": "две тысячи",
+        "Chapter": 1
+    },
+    {
+        "finnish": "viisisataatuhatta",
+        "English": "five hundred thousand",
+        "Russian": "пятьсот тысяч",
+        "Chapter": 1
+    },
+    {
+        "finnish": "miljoona",
+        "English": "million",
+        "Russian": "миллион",
+        "Chapter": 1
+    },
+    {
+        "finnish": "kaksi miljoonaa",
+        "English": "two million",
+        "Russian": "два миллиона",
+        "Chapter": 1
+    },
+    {
+        "finnish": "puisto",
+        "English": "park",
+        "Russian": "парк",
+        "Chapter": 2
+    },
+    {
+        "finnish": "loppua",
+        "English": "(to) end",
+        "Russian": "кончиться",
+        "Chapter": 2
+    },
+    {
+        "finnish": "kello",
+        "English": "o’clock; clock",
+        "Russian": "1. часы 2. в (сколько) часов 3. колокол",
+        "Chapter": 2
+    },
+    {
+        "finnish": "muu",
+        "English": "other",
+        "Russian": "другой",
+        "Chapter": 2
+    },
+    {
+        "finnish": "opiskelija",
+        "English": "student",
+        "Russian": "студент",
+        "Chapter": 2
+    },
+    {
+        "finnish": "mennä",
+        "English": "(to) go",
+        "Russian": "идти,ехать",
+        "Chapter": 2
+    },
+    {
+        "finnish": "koti",
+        "English": "home",
+        "Russian": "дом",
+        "Chapter": 2
+    },
+    {
+        "finnish": "mutta",
+        "English": "but",
+        "Russian": "но",
+        "Chapter": 2
+    },
+    {
+        "finnish": "kioski",
+        "English": "kiosk",
+        "Russian": "киоск",
+        "Chapter": 2
+    },
+    {
+        "finnish": "ostaa",
+        "English": "(to) buy",
+        "Russian": "купить",
+        "Chapter": 2
+    },
+    {
+        "finnish": "jäätelö",
+        "English": "ice cream",
+        "Russian": "мороженое",
+        "Chapter": 2
+    },
+    {
+        "finnish": "maksaa",
+        "English": "(to) cost; (to) pay",
+        "Russian": "1. стоить 2. платить",
+        "Chapter": 2
+    },
+    {
+        "finnish": "euro",
+        "English": "euro",
+        "Russian": "евро",
+        "Chapter": 2
+    },
+    {
+        "finnish": "säästää",
+        "English": "(to) save",
+        "Russian": "1. экономить 2. копить",
+        "Chapter": 2
+    },
+    {
+        "finnish": "raha",
+        "English": "money",
+        "Russian": "деньги",
+        "Chapter": 2
+    },
+    {
+        "finnish": "sitten",
+        "English": "then",
+        "Russian": "потом",
+        "Chapter": 2
+    },
+    {
+        "finnish": "istua",
+        "English": "(to) sit",
+        "Russian": "сидеть",
+        "Chapter": 2
+    },
+    {
+        "finnish": "puhua",
+        "English": "(to) speak",
+        "Russian": "говорить",
+        "Chapter": 2
+    },
+    {
+        "finnish": "nauraa",
+        "English": "(to) laugh",
+        "Russian": "смеяться",
+        "Chapter": 2
+    },
+    {
+        "finnish": "minkämaalainen",
+        "English": "Where are you from?",
+        "Russian": "из какой страны",
+        "Chapter": 2
+    },
+    {
+        "finnish": "brasilialainen",
+        "English": "Brazilian",
+        "Russian": "1. бразилец, бразильянка 2. бразильский",
+        "Chapter": 2
+    },
+    {
+        "finnish": "venäläinen",
+        "English": "Russian",
+        "Russian": "русский",
+        "Chapter": 2
+    },
+    {
+        "finnish": "entä",
+        "English": "what about",
+        "Russian": "а",
+        "Chapter": 2
+    },
+    {
+        "finnish": "mistä",
+        "English": "where",
+        "Russian": "откуда",
+        "Chapter": 2
+    },
+    {
+        "finnish": "kotoisin",
+        "English": "from",
+        "Russian": "родом",
+        "Chapter": 2
+    },
+    {
+        "finnish": "Etelä-Afrikka",
+        "English": "South Africa",
+        "Russian": "Южная Африка",
+        "Chapter": 2
+    },
+    {
+        "finnish": "ai jaa",
+        "English": "okay",
+        "Russian": "ах вот как",
+        "Chapter": 2
+    },
+    {
+        "finnish": "kieli",
+        "English": "language; tongue",
+        "Russian": "язык",
+        "Chapter": 2
+    },
+    {
+        "finnish": "minun",
+        "English": "my",
+        "Russian": "мой",
+        "Chapter": 2
+    },
+    {
+        "finnish": "äidinkieli",
+        "English": "mother tongue",
+        "Russian": "родной язык",
+        "Chapter": 2
+    },
+    {
+        "finnish": "englanti",
+        "English": "English",
+        "Russian": "английский язык",
+        "Chapter": 2
+    },
+    {
+        "finnish": "myös",
+        "English": "also",
+        "Russian": "тоже",
+        "Chapter": 2
+    },
+    {
+        "finnish": "vähän",
+        "English": "a little",
+        "Russian": "немного",
+        "Chapter": 2
+    },
+    {
+        "finnish": "espanja",
+        "English": "Spanish",
+        "Russian": "испанский язык",
+        "Chapter": 2
+    },
+    {
+        "finnish": "-ko/kö",
+        "English": "(expresses a question)",
+        "Russian": "ли (в вопросе)",
+        "Chapter": 2
+    },
+    {
+        "finnish": "sinun",
+        "English": "your",
+        "Russian": "твой",
+        "Chapter": 2
+    },
+    {
+        "finnish": "portugali",
+        "English": "Portuguese",
+        "Russian": "португальский язык",
+        "Chapter": 2
+    },
+    {
+        "finnish": "ai niin",
+        "English": "right",
+        "Russian": "ах да",
+        "Chapter": 2
+    },
+    {
+        "finnish": "tietysti",
+        "English": "of course",
+        "Russian": "конечно",
+        "Chapter": 2
+    },
+    {
+        "finnish": "ajaa",
+        "English": "(to) drive",
+        "Russian": "ехать,водить",
+        "Chapter": 2
+    },
+    {
+        "finnish": "auto",
+        "English": "car",
+        "Russian": "автомобиль",
+        "Chapter": 2
+    },
+    {
+        "finnish": "bussipysäkki",
+        "English": "bus stop",
+        "Russian": "автобусная остановка",
+        "Chapter": 2
+    },
+    {
+        "finnish": "missä",
+        "English": "where",
+        "Russian": "где",
+        "Chapter": 2
+    },
+    {
+        "finnish": "asua",
+        "English": "(to) live",
+        "Russian": "жить (где)",
+        "Chapter": 2
+    },
+    {
+        "finnish": "numero",
+        "English": "number",
+        "Russian": "номер",
+        "Chapter": 2
+    },
+    {
+        "finnish": "vaan",
+        "English": "but",
+        "Russian": "а",
+        "Chapter": 2
+    },
+    {
+        "finnish": "nyt",
+        "English": "now",
+        "Russian": "сейчас,теперь",
+        "Chapter": 2
+    },
+    {
+        "finnish": "maksaa",
+        "English": "(to) cost; (to) pay",
+        "Russian": "1. стоить 2. платить",
+        "Chapter": 2
+    },
+    {
+        "finnish": "pallo",
+        "English": "ball",
+        "Russian": "шар, мяч",
+        "Chapter": 2
+    },
+    {
+        "finnish": "ahaa",
+        "English": "oh,I see",
+        "Russian": "ясно, понятно",
+        "Chapter": 2
+    },
+    {
+        "finnish": "haluaisin",
+        "English": "1 would like",
+        "Russian": "я хотел бы",
+        "Chapter": 2
+    },
+    {
+        "finnish": "suklaa",
+        "English": "chocolate",
+        "Russian": "шоколад",
+        "Chapter": 2
+    },
+    {
+        "finnish": "okei",
+        "English": "okay",
+        "Russian": "окей",
+        "Chapter": 2
+    },
+    {
+        "finnish": "sinulle",
+        "English": "for you",
+        "Russian": "тебе",
+        "Chapter": 2
+    },
+    {
+        "finnish": "-kin",
+        "English": "also",
+        "Russian": "тоже",
+        "Chapter": 2
+    },
+    {
+        "finnish": "vanilja",
+        "English": "vanilla",
+        "Russian": "ваниль",
+        "Chapter": 2
+    },
+    {
+        "finnish": "mansikka",
+        "English": "strawberry",
+        "Russian": "клубника, земляника",
+        "Chapter": 2
+    },
+    {
+        "finnish": "selvä",
+        "English": "right",
+        "Russian": "ясный, ясно",
+        "Chapter": 2
+    },
+    {
+        "finnish": "tuleeko muuta",
+        "English": "anything else",
+        "Russian": "хотите еще что-нибудь?",
+        "Chapter": 2
+    },
+    {
+        "finnish": "tässä",
+        "English": "here",
+        "Russian": "вот, здесь",
+        "Chapter": 2
+    },
+    {
+        "finnish": "euro",
+        "English": "euro",
+        "Russian": "евро",
+        "Chapter": 2
+    },
+    {
+        "finnish": "maa",
+        "English": "country; land",
+        "Russian": "1. страна 2. земля",
+        "Chapter": 2
+    },
+    {
+        "finnish": "kansalaisuus",
+        "English": "nationality",
+        "Russian": "гражданство",
+        "Chapter": 2
+    },
+    {
+        "finnish": "kieli",
+        "English": "language; tongue",
+        "Russian": "язык",
+        "Chapter": 2
+    },
+    {
+        "finnish": "Suomi",
+        "English": "Finland",
+        "Russian": "Финляндия",
+        "Chapter": 2
+    },
+    {
+        "finnish": "Ranska",
+        "English": "France",
+        "Russian": "Франция",
+        "Chapter": 2
+    },
+    {
+        "finnish": "Kreikka",
+        "English": "Greece",
+        "Russian": "Греция",
+        "Chapter": 2
+    },
+    {
+        "finnish": "Islanti",
+        "English": "Iceland",
+        "Russian": "Исландия",
+        "Chapter": 2
+    },
+    {
+        "finnish": "Egypti",
+        "English": "Egypt",
+        "Russian": "Египет",
+        "Chapter": 2
+    },
+    {
+        "finnish": "Venäjä",
+        "English": "Russia",
+        "Russian": "Россия",
+        "Chapter": 2
+    },
+    {
+        "finnish": "Pakistan",
+        "English": "Pakistan",
+        "Russian": "Пакистан",
+        "Chapter": 2
+    },
+    {
+        "finnish": "suomalainen",
+        "English": "Finnish",
+        "Russian": "1. финн, финка 2. финский",
+        "Chapter": 2
+    },
+    {
+        "finnish": "ranskalainen",
+        "English": "French",
+        "Russian": "1. француз, француженка 2. французский",
+        "Chapter": 2
+    },
+    {
+        "finnish": "kreikkalainen",
+        "English": "Greek",
+        "Russian": "1.грек,гречанка 2.греческий",
+        "Chapter": 2
+    },
+    {
+        "finnish": "islantilainen",
+        "English": "Icelandic",
+        "Russian": "1. исландец,исландка 2. исландский",
+        "Chapter": 2
+    },
+    {
+        "finnish": "egyptiläinen",
+        "English": "Egyptian",
+        "Russian": "1.египтянин,египтянка 2.египетский",
+        "Chapter": 2
+    },
+    {
+        "finnish": "venäläinen",
+        "English": "Russian",
+        "Russian": "русский",
+        "Chapter": 2
+    },
+    {
+        "finnish": "pakistanilainen",
+        "English": "Pakistani",
+        "Russian": "1. пакистанец,пакистанка 2.пакистанский",
+        "Chapter": 2
+    },
+    {
+        "finnish": "suomi",
+        "English": "Finnish",
+        "Russian": "финский язык",
+        "Chapter": 2
+    },
+    {
+        "finnish": "ranska",
+        "English": "French",
+        "Russian": "французский язык",
+        "Chapter": 2
+    },
+    {
+        "finnish": "kreikka",
+        "English": "Greek",
+        "Russian": "греческий язык",
+        "Chapter": 2
+    },
+    {
+        "finnish": "islanti",
+        "English": "Icelandic",
+        "Russian": "исландский язык",
+        "Chapter": 2
+    },
+    {
+        "finnish": "arabia",
+        "English": "Arabic",
+        "Russian": "арабский язык",
+        "Chapter": 2
+    },
+    {
+        "finnish": "venäjä",
+        "English": "Russian",
+        "Russian": "русский язык",
+        "Chapter": 2
+    },
+    {
+        "finnish": "urdu",
+        "English": "Urdu",
+        "Russian": "УРДУ",
+        "Chapter": 2
+    },
+    {
+        "finnish": "Mistä sinä olet kotoisin?",
+        "English": "Where are you from?",
+        "Russian": "Откуда ты родом?",
+        "Chapter": 2
+    },
+    {
+        "finnish": "Minkämaalainen sinä olet?",
+        "English": "Which country are you from?",
+        "Russian": "Ты из какой страны?",
+        "Chapter": 2
+    },
+    {
+        "finnish": "Mitä kieltä sinä puhut?",
+        "English": "What language do you speak?",
+        "Russian": "На каком языке ты говоришь?",
+        "Chapter": 2
+    },
+    {
+        "finnish": "olla kotoisin",
+        "English": "come from",
+        "Russian": "быть родом (откуда)",
+        "Chapter": 2
+    },
+    {
+        "finnish": "puhua",
+        "English": "(to) speak",
+        "Russian": "говорить",
+        "Chapter": 2
+    },
+    {
+        "finnish": "maailma",
+        "English": "world",
+        "Russian": "мир",
+        "Chapter": 2
+    },
+    {
+        "finnish": "pohjoisnapa",
+        "English": "North Pole",
+        "Russian": "Северный полюс",
+        "Chapter": 2
+    },
+    {
+        "finnish": "Pohjois-Amerikka",
+        "English": "North America",
+        "Russian": "Северная Америка",
+        "Chapter": 2
+    },
+    {
+        "finnish": "Etelä-Amerikka",
+        "English": "South America",
+        "Russian": "Южная Америка",
+        "Chapter": 2
+    },
+    {
+        "finnish": "Eurooppa",
+        "English": "Europe",
+        "Russian": "Европа",
+        "Chapter": 2
+    },
+    {
+        "finnish": "Afrikka",
+        "English": "Africa",
+        "Russian": "Африка",
+        "Chapter": 2
+    },
+    {
+        "finnish": "Aasia",
+        "English": "Asia",
+        "Russian": "Азия",
+        "Chapter": 2
+    },
+    {
+        "finnish": "Australia",
+        "English": "Australia",
+        "Russian": "Австралия",
+        "Chapter": 2
+    },
+    {
+        "finnish": "Etelämanner",
+        "English": "Antarctica",
+        "Russian": "Антарктида",
+        "Chapter": 2
+    },
+    {
+        "finnish": "ilmansuunnat",
+        "English": "points of the compass",
+        "Russian": "страны света, стороны горизонта",
+        "Chapter": 2
+    },
+    {
+        "finnish": "pohjoinen",
+        "English": "north",
+        "Russian": "север",
+        "Chapter": 2
+    },
+    {
+        "finnish": "etelä",
+        "English": "south",
+        "Russian": "юг",
+        "Chapter": 2
+    },
+    {
+        "finnish": "itä",
+        "English": "east",
+        "Russian": "восток",
+        "Chapter": 2
+    },
+    {
+        "finnish": "länsi",
+        "English": "west",
+        "Russian": "запад",
+        "Chapter": 2
+    },
+    {
+        "finnish": "hinta",
+        "English": "price",
+        "Russian": "цена",
+        "Chapter": 2
+    },
+    {
+        "finnish": "raha",
+        "English": "money",
+        "Russian": "деньги",
+        "Chapter": 2
+    },
+    {
+        "finnish": "Mitä tämä maksaa?",
+        "English": "How much does this cost?",
+        "Russian": "Сколько это стоит?",
+        "Chapter": 2
+    },
+    {
+        "finnish": "euro",
+        "English": "euro",
+        "Russian": "евро",
+        "Chapter": 2
+    },
+    {
+        "finnish": "sentti",
+        "English": "cent",
+        "Russian": "цент",
+        "Chapter": 2
+    },
+    {
+        "finnish": "seteli",
+        "English": "note, bill",
+        "Russian": "денежный знак, купюра",
+        "Chapter": 2
+    },
+    {
+        "finnish": "kolikko",
+        "English": "coin",
+        "Russian": "монета",
+        "Chapter": 2
+    },
+    {
+        "finnish": "halpa",
+        "English": "cheap",
+        "Russian": "дешевый",
+        "Chapter": 2
+    },
+    {
+        "finnish": "kallis",
+        "English": "expensive",
+        "Russian": "дорогой",
+        "Chapter": 2
+    }
+]
