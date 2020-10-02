@@ -1,4 +1,4 @@
-import 'package:finapp/screens/dictionary.dart';
+import 'package:finapp/screens/dictionary/dictionary.dart';
 import 'package:finapp/utils/constatnts.dart';
 import 'package:flutter/material.dart';
 
@@ -13,12 +13,14 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Flutter Demo',
       theme: ThemeData.light().copyWith(
-          primaryColor: Colors.white,
-          scaffoldBackgroundColor: kLightBlue,
+        primaryColor: Colors.white,
+        scaffoldBackgroundColor: kLightBlue,
 
-          // appBarTheme: AppBarTheme(color: Colors.white),
-          primaryTextTheme:
-              TextTheme(headline6: TextStyle(color: Colors.grey))),
+        // appBarTheme: AppBarTheme(color: Colors.white),
+        primaryTextTheme: TextTheme(
+          headline6: TextStyle(color: Colors.grey),
+        ),
+      ),
       home: Dictionary(),
     );
   }

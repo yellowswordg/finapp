@@ -1,1358 +1,1584 @@
 [
     {
+        "id": 1,
         "finnish": "Hei!",
-        "English": "Hello!",
-        "Russian": "Привет!",
-        "Chapter": 1
+        "english": "Hello!",
+        "russian": "Привет!",
+        "chapter": 1
     },
     {
+        "id": 2,
         "finnish": "ja",
-        "English": "and",
-        "Russian": "и",
-        "Chapter": 1
+        "english": "and",
+        "russian": "и",
+        "chapter": 1
     },
     {
+        "id": 3,
         "finnish": "Tervetuloa!",
-        "English": "Welcome!",
-        "Russian": "Добро пожаловать!",
-        "Chapter": 1
+        "english": "Welcome!",
+        "russian": "Добро пожаловать!",
+        "chapter": 1
     },
     {
+        "id": 4,
         "finnish": "Moi!",
-        "English": "Hi!",
-        "Russian": "Привет!",
-        "Chapter": 1
+        "english": "Hi!",
+        "russian": "Привет!",
+        "chapter": 1
     },
     {
+        "id": 5,
         "finnish": "Anteeksi!",
-        "English": "Excuse me!",
-        "Russian": "Простите!",
-        "Chapter": 1
+        "english": "Excuse me!",
+        "russian": "Простите!",
+        "chapter": 1
     },
     {
+        "id": 6,
         "finnish": "onko",
-        "English": "is",
-        "Russian": "есть ли",
-        "Chapter": 1
+        "english": "is",
+        "russian": "есть ли",
+        "chapter": 1
     },
     {
+        "id": 7,
         "finnish": "täällä",
-        "English": "here",
-        "Russian": "здесь",
-        "Chapter": 1
+        "english": "here",
+        "russian": "здесь",
+        "chapter": 1
     },
     {
+        "id": 8,
         "finnish": "suonien kurssi",
-        "English": "course in Finnish",
-        "Russian": "курс финского языка",
-        "Chapter": 1
+        "english": "course in Finnish",
+        "russian": "курс финского языка",
+        "chapter": 1
     },
     {
+        "id": 9,
         "finnish": "joo",
-        "English": "yes",
-        "Russian": "Да",
-        "Chapter": 1
+        "english": "yes",
+        "russian": "Да",
+        "chapter": 1
     },
     {
+        "id": 10,
         "finnish": "Kuka sinä olet?",
-        "English": "Who are you?",
-        "Russian": "Кто ты?",
-        "Chapter": 1
+        "english": "Who are you?",
+        "russian": "Кто ты?",
+        "chapter": 1
     },
     {
+        "id": 11,
         "finnish": "minä",
-        "English": "I",
-        "Russian": "я",
-        "Chapter": 1
+        "english": "I",
+        "russian": "я",
+        "chapter": 1
     },
     {
+        "id": 12,
         "finnish": "olla",
-        "English": "be",
-        "Russian": "быть",
-        "Chapter": 1
+        "english": "be",
+        "russian": "быть",
+        "chapter": 1
     },
     {
+        "id": 13,
         "finnish": "entä",
-        "English": "what about",
-        "Russian": "а",
-        "Chapter": 1
+        "english": "what about",
+        "russian": "а",
+        "chapter": 1
     },
     {
+        "id": 14,
         "finnish": "sinä",
-        "English": "you",
-        "Russian": "ты",
-        "Chapter": 1
+        "english": "you",
+        "russian": "ты",
+        "chapter": 1
     },
     {
+        "id": 15,
         "finnish": "Hauska tutustua!",
-        "English": "Nice to meet you!",
-        "Russian": "Очень приятно познакомиться!",
-        "Chapter": 1
+        "english": "Nice to meet you!",
+        "russian": "Очень приятно познакомиться!",
+        "chapter": 1
     },
     {
+        "id": 16,
         "finnish": "Kiitos samoin!",
-        "English": "Likewise!",
-        "Russian": "Спасибо, мне тоже!",
-        "Chapter": 1
+        "english": "Likewise!",
+        "russian": "Спасибо, мне тоже!",
+        "chapter": 1
     },
     {
+        "id": 17,
         "finnish": "Mitä sinulle kuuluu?",
-        "English": "How are you?",
-        "Russian": "Как дела?",
-        "Chapter": 1
+        "english": "How are you?",
+        "russian": "Как дела?",
+        "chapter": 1
     },
     {
+        "id": 18,
         "finnish": "Minulle kuuluu hyvää.",
-        "English": "I’m fine.",
-        "Russian": "У меня все хорошо.",
-        "Chapter": 1
+        "english": "I’m fine.",
+        "russian": "У меня все хорошо.",
+        "chapter": 1
     },
     {
+        "id": 19,
         "finnish": "Entä sinulle?",
-        "English": "And you?",
-        "Russian": "А ты как?",
-        "Chapter": 1
+        "english": "And you?",
+        "russian": "А ты как?",
+        "chapter": 1
     },
     {
+        "id": 20,
         "finnish": "Ihan hyvää, kiitos,",
-        "English": "I’m fine, thank you.",
-        "Russian": "Хорошо, спасибо,",
-        "Chapter": 1
+        "english": "I’m fine, thank you.",
+        "russian": "Хорошо, спасибо,",
+        "chapter": 1
     },
     {
+        "id": 21,
         "finnish": "hän",
-        "English": "he,she",
-        "Russian": "он/она",
-        "Chapter": 1
+        "english": "he,she",
+        "russian": "он/она",
+        "chapter": 1
     },
     {
+        "id": 22,
         "finnish": "Kuinka vanha sinä olet?",
-        "English": "How old are you?",
-        "Russian": "Сколько тебе лет?",
-        "Chapter": 1
+        "english": "How old are you?",
+        "russian": "Сколько тебе лет?",
+        "chapter": 1
     },
     {
+        "id": 23,
         "finnish": "opettaja",
-        "English": "teacher",
-        "Russian": "учитель,учительница",
-        "Chapter": 1
+        "english": "teacher",
+        "russian": "учитель,учительница",
+        "chapter": 1
     },
     {
+        "id": 24,
         "finnish": "tulla",
-        "English": "(to) come",
-        "Russian": "прийти,приехать",
-        "Chapter": 1
+        "english": "(to) come",
+        "russian": "прийти,приехать",
+        "chapter": 1
     },
     {
+        "id": 25,
         "finnish": "Huomenta!",
-        "English": "Good morning!",
-        "Russian": "Доброе утро!",
-        "Chapter": 1
+        "english": "Good morning!",
+        "russian": "Доброе утро!",
+        "chapter": 1
     },
     {
+        "id": 26,
         "finnish": "Mikä sinun nimi on?",
-        "English": "What’s your name?",
-        "Russian": "Как тебя зовут?",
-        "Chapter": 1
+        "english": "What’s your name?",
+        "russian": "Как тебя зовут?",
+        "chapter": 1
     },
     {
+        "id": 27,
         "finnish": "Minun nimi on...",
-        "English": "My name is...",
-        "Russian": "Меня зовут...",
-        "Chapter": 1
+        "english": "My name is...",
+        "russian": "Меня зовут...",
+        "chapter": 1
     },
     {
+        "id": 28,
         "finnish": "Miten se kirjoitetaan?",
-        "English": "How do you spell it?",
-        "Russian": "Как это пишется?",
-        "Chapter": 1
+        "english": "How do you spell it?",
+        "russian": "Как это пишется?",
+        "chapter": 1
     },
     {
+        "id": 29,
         "finnish": "etunimi",
-        "English": "first name",
-        "Russian": "имя",
-        "Chapter": 1
+        "english": "first name",
+        "russian": "имя",
+        "chapter": 1
     },
     {
+        "id": 30,
         "finnish": "sukunimi",
-        "English": "last name",
-        "Russian": "фамилия",
-        "Chapter": 1
+        "english": "last name",
+        "russian": "фамилия",
+        "chapter": 1
     },
     {
+        "id": 31,
         "finnish": "Huomenta!",
-        "English": "Morning!",
-        "Russian": "Доброе утро!",
-        "Chapter": 1
+        "english": "Morning!",
+        "russian": "Доброе утро!",
+        "chapter": 1
     },
     {
+        "id": 32,
         "finnish": "Hyvää huomenta!",
-        "English": "Good morning!",
-        "Russian": "Доброе утро!",
-        "Chapter": 1
+        "english": "Good morning!",
+        "russian": "Доброе утро!",
+        "chapter": 1
     },
     {
+        "id": 33,
         "finnish": "Päivää!",
-        "English": "Afternoon!",
-        "Russian": "Здравствуйте!",
-        "Chapter": 1
+        "english": "Afternoon!",
+        "russian": "Здравствуйте!",
+        "chapter": 1
     },
     {
+        "id": 34,
         "finnish": "Hyvää päivää!",
-        "English": "Good afternoon !",
-        "Russian": "Здравствуйте!",
-        "Chapter": 1
+        "english": "Good afternoon !",
+        "russian": "Здравствуйте!",
+        "chapter": 1
     },
     {
+        "id": 35,
         "finnish": "Iltaa!",
-        "English": "Evening!",
-        "Russian": "Добрый вечер!",
-        "Chapter": 1
+        "english": "Evening!",
+        "russian": "Добрый вечер!",
+        "chapter": 1
     },
     {
+        "id": 36,
         "finnish": "Hyvää iltaa!",
-        "English": "Good evening!",
-        "Russian": "Добрый вечер!",
-        "Chapter": 1
+        "english": "Good evening!",
+        "russian": "Добрый вечер!",
+        "chapter": 1
     },
     {
+        "id": 37,
         "finnish": "Hyvää yötä!",
-        "English": "Good night!",
-        "Russian": "Спокойной ночи!",
-        "Chapter": 1
+        "english": "Good night!",
+        "russian": "Спокойной ночи!",
+        "chapter": 1
     },
     {
+        "id": 38,
         "finnish": "Nuku hyvin!",
-        "English": "Sleep well!",
-        "Russian": "Приятных снов!",
-        "Chapter": 1
+        "english": "Sleep well!",
+        "russian": "Приятных снов!",
+        "chapter": 1
     },
     {
+        "id": 39,
         "finnish": "Hei!",
-        "English": "Hello!",
-        "Russian": "Привет!",
-        "Chapter": 1
+        "english": "Hello!",
+        "russian": "Привет!",
+        "chapter": 1
     },
     {
+        "id": 40,
         "finnish": "Moi!",
-        "English": "Hi!",
-        "Russian": "Привет!",
-        "Chapter": 1
+        "english": "Hi!",
+        "russian": "Привет!",
+        "chapter": 1
     },
     {
+        "id": 41,
         "finnish": "Terve!",
-        "English": "Hi!",
-        "Russian": "Здорово! Привет!",
-        "Chapter": 1
+        "english": "Hi!",
+        "russian": "Здорово! Привет!",
+        "chapter": 1
     },
     {
+        "id": 42,
         "finnish": "Nähdään!",
-        "English": "See you!",
-        "Russian": "До встречи!",
-        "Chapter": 1
+        "english": "See you!",
+        "russian": "До встречи!",
+        "chapter": 1
     },
     {
+        "id": 43,
         "finnish": "Hei hei!",
-        "English": "Bye bye!",
-        "Russian": "Пока!",
-        "Chapter": 1
+        "english": "Bye bye!",
+        "russian": "Пока!",
+        "chapter": 1
     },
     {
+        "id": 44,
         "finnish": "Nähdään huomenna!",
-        "English": "See you tomorrow!",
-        "Russian": "Увидимся завтра!",
-        "Chapter": 1
+        "english": "See you tomorrow!",
+        "russian": "Увидимся завтра!",
+        "chapter": 1
     },
     {
+        "id": 45,
         "finnish": "Moi moi!",
-        "English": "Bye bye!",
-        "Russian": "Пока!",
-        "Chapter": 1
+        "english": "Bye bye!",
+        "russian": "Пока!",
+        "chapter": 1
     },
     {
+        "id": 46,
         "finnish": "Moikka!",
-        "English": "Bye!",
-        "Russian": "Пока!",
-        "Chapter": 1
+        "english": "Bye!",
+        "russian": "Пока!",
+        "chapter": 1
     },
     {
+        "id": 47,
         "finnish": "Heippa!",
-        "English": "Bye!",
-        "Russian": "Пока!",
-        "Chapter": 1
+        "english": "Bye!",
+        "russian": "Пока!",
+        "chapter": 1
     },
     {
+        "id": 48,
         "finnish": "Näkemiin!",
-        "English": "Goodbye!",
-        "Russian": "Пока!",
-        "Chapter": 1
+        "english": "Goodbye!",
+        "russian": "Пока!",
+        "chapter": 1
     },
     {
+        "id": 49,
         "finnish": "Joo.",
-        "English": "Yeah.",
-        "Russian": "Да.",
-        "Chapter": 1
+        "english": "Yeah.",
+        "russian": "Да.",
+        "chapter": 1
     },
     {
+        "id": 50,
         "finnish": "Ei.",
-        "English": "No.",
-        "Russian": "Нет.",
-        "Chapter": 1
+        "english": "No.",
+        "russian": "Нет.",
+        "chapter": 1
     },
     {
+        "id": 51,
         "finnish": "Kyllä.",
-        "English": "Yes.",
-        "Russian": "Да.",
-        "Chapter": 1
+        "english": "Yes.",
+        "russian": "Да.",
+        "chapter": 1
     },
     {
+        "id": 52,
         "finnish": "Ole hyvä!",
-        "English": "There you are!",
-        "Russian": "Пожалуйста!",
-        "Chapter": 1
+        "english": "There you are!",
+        "russian": "Пожалуйста!",
+        "chapter": 1
     },
     {
+        "id": 53,
         "finnish": "Kiitos!",
-        "English": "Thank you!",
-        "Russian": "Спасибо!",
-        "Chapter": 1
+        "english": "Thank you!",
+        "russian": "Спасибо!",
+        "chapter": 1
     },
     {
+        "id": 54,
         "finnish": "Ei kestä!",
-        "English": "You’re welcome!",
-        "Russian": "Не за что!",
-        "Chapter": 1
+        "english": "You’re welcome!",
+        "russian": "Не за что!",
+        "chapter": 1
     },
     {
+        "id": 55,
         "finnish": "Anteeksi!",
-        "English": "Sorry!",
-        "Russian": "Простите!",
-        "Chapter": 1
+        "english": "Sorry!",
+        "russian": "Простите!",
+        "chapter": 1
     },
     {
+        "id": 56,
         "finnish": "Ei se mitään!",
-        "English": "It’s all right!",
-        "Russian": "Ничего страшного!",
-        "Chapter": 1
+        "english": "It’s all right!",
+        "russian": "Ничего страшного!",
+        "chapter": 1
     },
     {
+        "id": 57,
         "finnish": "Tervetuloa!",
-        "English": "Welcome!",
-        "Russian": "Добро пожаловать!",
-        "Chapter": 1
+        "english": "Welcome!",
+        "russian": "Добро пожаловать!",
+        "chapter": 1
     },
     {
+        "id": 58,
         "finnish": "viikonpäivät",
-        "English": "days of the week",
-        "Russian": "дни недели",
-        "Chapter": 1
+        "english": "days of the week",
+        "russian": "дни недели",
+        "chapter": 1
     },
     {
+        "id": 59,
         "finnish": "Mikä päivä tänään on?",
-        "English": "What day is it today?",
-        "Russian": "Какой сегодня день?",
-        "Chapter": 1
+        "english": "What day is it today?",
+        "russian": "Какой сегодня день?",
+        "chapter": 1
     },
     {
+        "id": 60,
         "finnish": "milloin",
-        "English": "when",
-        "Russian": "когда",
-        "Chapter": 1
+        "english": "when",
+        "russian": "когда",
+        "chapter": 1
     },
     {
+        "id": 61,
         "finnish": "Hauskaa viikonloppua!",
-        "English": "Have a nice weekend!",
-        "Russian": "Приятных выходных!",
-        "Chapter": 1
+        "english": "Have a nice weekend!",
+        "russian": "Приятных выходных!",
+        "chapter": 1
     },
     {
+        "id": 62,
         "finnish": "maanantai",
-        "English": "Monday",
-        "Russian": "понедельник",
-        "Chapter": 1
+        "english": "Monday",
+        "russian": "понедельник",
+        "chapter": 1
     },
     {
+        "id": 63,
         "finnish": "tiistai",
-        "English": "Tuesday",
-        "Russian": "вторник",
-        "Chapter": 1
+        "english": "Tuesday",
+        "russian": "вторник",
+        "chapter": 1
     },
     {
+        "id": 64,
         "finnish": "keskiviikko",
-        "English": "Wednesday",
-        "Russian": "среда",
-        "Chapter": 1
+        "english": "Wednesday",
+        "russian": "среда",
+        "chapter": 1
     },
     {
+        "id": 65,
         "finnish": "torstai",
-        "English": "Thursday",
-        "Russian": "четверг",
-        "Chapter": 1
+        "english": "Thursday",
+        "russian": "четверг",
+        "chapter": 1
     },
     {
+        "id": 66,
         "finnish": "perjantai",
-        "English": "Friday",
-        "Russian": "пятница",
-        "Chapter": 1
+        "english": "Friday",
+        "russian": "пятница",
+        "chapter": 1
     },
     {
+        "id": 67,
         "finnish": "lauantai",
-        "English": "Saturday",
-        "Russian": "суббота",
-        "Chapter": 1
+        "english": "Saturday",
+        "russian": "суббота",
+        "chapter": 1
     },
     {
+        "id": 68,
         "finnish": "sunnuntai",
-        "English": "Sunday",
-        "Russian": "воскресенье",
-        "Chapter": 1
+        "english": "Sunday",
+        "russian": "воскресенье",
+        "chapter": 1
     },
     {
+        "id": 69,
         "finnish": "viikonloppu",
-        "English": "weekend",
-        "Russian": "конец недели (суббота и воскресенье)",
-        "Chapter": 1
+        "english": "weekend",
+        "russian": "конец недели (суббота и воскресенье)",
+        "chapter": 1
     },
     {
+        "id": 70,
         "finnish": "toissapäivänä",
-        "English": "day before yesterday",
-        "Russian": "позавчера",
-        "Chapter": 1
+        "english": "day before yesterday",
+        "russian": "позавчера",
+        "chapter": 1
     },
     {
+        "id": 71,
         "finnish": "eilen",
-        "English": "yesterday",
-        "Russian": "вчера",
-        "Chapter": 1
+        "english": "yesterday",
+        "russian": "вчера",
+        "chapter": 1
     },
     {
+        "id": 72,
         "finnish": "tänään",
-        "English": "today",
-        "Russian": "сегодня",
-        "Chapter": 1
+        "english": "today",
+        "russian": "сегодня",
+        "chapter": 1
     },
     {
+        "id": 73,
         "finnish": "huomenna",
-        "English": "tomorrow",
-        "Russian": "завтра",
-        "Chapter": 1
+        "english": "tomorrow",
+        "russian": "завтра",
+        "chapter": 1
     },
     {
+        "id": 74,
         "finnish": "ylihuomenna",
-        "English": "day after tomorrow",
-        "Russian": "послезавтра",
-        "Chapter": 1
+        "english": "day after tomorrow",
+        "russian": "послезавтра",
+        "chapter": 1
     },
     {
+        "id": 75,
         "finnish": "nolla",
-        "English": "zero",
-        "Russian": "нуль",
-        "Chapter": 1
+        "english": "zero",
+        "russian": "нуль",
+        "chapter": 1
     },
     {
+        "id": 76,
         "finnish": "yksi",
-        "English": "one",
-        "Russian": "один",
-        "Chapter": 1
+        "english": "one",
+        "russian": "один",
+        "chapter": 1
     },
     {
+        "id": 77,
         "finnish": "kaksi",
-        "English": "two",
-        "Russian": "два",
-        "Chapter": 1
+        "english": "two",
+        "russian": "два",
+        "chapter": 1
     },
     {
+        "id": 78,
         "finnish": "kolme",
-        "English": "three",
-        "Russian": "три",
-        "Chapter": 1
+        "english": "three",
+        "russian": "три",
+        "chapter": 1
     },
     {
+        "id": 79,
         "finnish": "neljä",
-        "English": "four",
-        "Russian": "четыре",
-        "Chapter": 1
+        "english": "four",
+        "russian": "четыре",
+        "chapter": 1
     },
     {
+        "id": 80,
         "finnish": "viisi",
-        "English": "five",
-        "Russian": "пять",
-        "Chapter": 1
+        "english": "five",
+        "russian": "пять",
+        "chapter": 1
     },
     {
+        "id": 81,
         "finnish": "kuusi",
-        "English": "six",
-        "Russian": "шесть",
-        "Chapter": 1
+        "english": "six",
+        "russian": "шесть",
+        "chapter": 1
     },
     {
+        "id": 82,
         "finnish": "seitsemän",
-        "English": "seven",
-        "Russian": "семь",
-        "Chapter": 1
+        "english": "seven",
+        "russian": "семь",
+        "chapter": 1
     },
     {
+        "id": 83,
         "finnish": "kahdeksan",
-        "English": "eight",
-        "Russian": "восемь",
-        "Chapter": 1
+        "english": "eight",
+        "russian": "восемь",
+        "chapter": 1
     },
     {
+        "id": 84,
         "finnish": "yhdeksän",
-        "English": "nine",
-        "Russian": "девять",
-        "Chapter": 1
+        "english": "nine",
+        "russian": "девять",
+        "chapter": 1
     },
     {
+        "id": 85,
         "finnish": "kymmenen",
-        "English": "ten",
-        "Russian": "десять",
-        "Chapter": 1
+        "english": "ten",
+        "russian": "десять",
+        "chapter": 1
     },
     {
+        "id": 86,
         "finnish": "yksitoista",
-        "English": "eleven",
-        "Russian": "одиннадцать",
-        "Chapter": 1
+        "english": "eleven",
+        "russian": "одиннадцать",
+        "chapter": 1
     },
     {
+        "id": 87,
         "finnish": "kaksitoista",
-        "English": "twelve",
-        "Russian": "двенадцать",
-        "Chapter": 1
+        "english": "twelve",
+        "russian": "двенадцать",
+        "chapter": 1
     },
     {
+        "id": 88,
         "finnish": "kolmetoista",
-        "English": "thirteen",
-        "Russian": "тринадцать",
-        "Chapter": 1
+        "english": "thirteen",
+        "russian": "тринадцать",
+        "chapter": 1
     },
     {
+        "id": 89,
         "finnish": "neljätoista",
-        "English": "fourteen",
-        "Russian": "четырнадцать",
-        "Chapter": 1
+        "english": "fourteen",
+        "russian": "четырнадцать",
+        "chapter": 1
     },
     {
+        "id": 90,
         "finnish": "viisitoista",
-        "English": "fifteen",
-        "Russian": "пятнадцать",
-        "Chapter": 1
+        "english": "fifteen",
+        "russian": "пятнадцать",
+        "chapter": 1
     },
     {
+        "id": 91,
         "finnish": "kuusitoista",
-        "English": "sixteen",
-        "Russian": "шестнадцать",
-        "Chapter": 1
+        "english": "sixteen",
+        "russian": "шестнадцать",
+        "chapter": 1
     },
     {
+        "id": 92,
         "finnish": "seitsemäntoista",
-        "English": "seventeen",
-        "Russian": "семнадцать",
-        "Chapter": 1
+        "english": "seventeen",
+        "russian": "семнадцать",
+        "chapter": 1
     },
     {
+        "id": 93,
         "finnish": "kahdeksantoista",
-        "English": "eighteen",
-        "Russian": "восемнадцать",
-        "Chapter": 1
+        "english": "eighteen",
+        "russian": "восемнадцать",
+        "chapter": 1
     },
     {
+        "id": 94,
         "finnish": "yhdeksäntoista",
-        "English": "nineteen",
-        "Russian": "девятнадцать",
-        "Chapter": 1
+        "english": "nineteen",
+        "russian": "девятнадцать",
+        "chapter": 1
     },
     {
+        "id": 95,
         "finnish": "kaksikymmentä",
-        "English": "twenty",
-        "Russian": "двадцать",
-        "Chapter": 1
+        "english": "twenty",
+        "russian": "двадцать",
+        "chapter": 1
     },
     {
+        "id": 96,
         "finnish": "kaksikymmentäyksi",
-        "English": "twenty-one",
-        "Russian": "двадцать один",
-        "Chapter": 1
+        "english": "twenty-one",
+        "russian": "двадцать один",
+        "chapter": 1
     },
     {
+        "id": 97,
         "finnish": "kaksikymmentäkaksi",
-        "English": "twenty-two",
-        "Russian": "двадцать два",
-        "Chapter": 1
+        "english": "twenty-two",
+        "russian": "двадцать два",
+        "chapter": 1
     },
     {
+        "id": 98,
         "finnish": "kolmekymmentä",
-        "English": "thirty",
-        "Russian": "тридцать",
-        "Chapter": 1
+        "english": "thirty",
+        "russian": "тридцать",
+        "chapter": 1
     },
     {
+        "id": 99,
         "finnish": "neljäkymmentä",
-        "English": "forty",
-        "Russian": "сорок",
-        "Chapter": 1
+        "english": "forty",
+        "russian": "сорок",
+        "chapter": 1
     },
     {
+        "id": 100,
         "finnish": "viisikymmentä",
-        "English": "fifty",
-        "Russian": "пятьдесят",
-        "Chapter": 1
+        "english": "fifty",
+        "russian": "пятьдесят",
+        "chapter": 1
     },
     {
+        "id": 101,
         "finnish": "kuusikymmentä",
-        "English": "sixty",
-        "Russian": "шестьдесят",
-        "Chapter": 1
+        "english": "sixty",
+        "russian": "шестьдесят",
+        "chapter": 1
     },
     {
+        "id": 102,
         "finnish": "seitsemänkymmentä",
-        "English": "seventy",
-        "Russian": "семьдесят",
-        "Chapter": 1
+        "english": "seventy",
+        "russian": "семьдесят",
+        "chapter": 1
     },
     {
+        "id": 103,
         "finnish": "kahdeksankymmentä",
-        "English": "eighty",
-        "Russian": "восемьдесят",
-        "Chapter": 1
+        "english": "eighty",
+        "russian": "восемьдесят",
+        "chapter": 1
     },
     {
+        "id": 104,
         "finnish": "yhdeksänkymmentä",
-        "English": "ninety",
-        "Russian": "девяносто",
-        "Chapter": 1
+        "english": "ninety",
+        "russian": "девяносто",
+        "chapter": 1
     },
     {
+        "id": 105,
         "finnish": "sata",
-        "English": "hundred",
-        "Russian": "сто",
-        "Chapter": 1
+        "english": "hundred",
+        "russian": "сто",
+        "chapter": 1
     },
     {
+        "id": 106,
         "finnish": "satayksi",
-        "English": "one hundred and one",
-        "Russian": "сто один",
-        "Chapter": 1
+        "english": "one hundred and one",
+        "russian": "сто один",
+        "chapter": 1
     },
     {
+        "id": 107,
         "finnish": "kaksisataa",
-        "English": "two hundred",
-        "Russian": "двести",
-        "Chapter": 1
+        "english": "two hundred",
+        "russian": "двести",
+        "chapter": 1
     },
     {
+        "id": 108,
         "finnish": "kolmesataa",
-        "English": "three hundred",
-        "Russian": "триста",
-        "Chapter": 1
+        "english": "three hundred",
+        "russian": "триста",
+        "chapter": 1
     },
     {
+        "id": 109,
         "finnish": "tuhat",
-        "English": "thousand",
-        "Russian": "тысяча",
-        "Chapter": 1
+        "english": "thousand",
+        "russian": "тысяча",
+        "chapter": 1
     },
     {
+        "id": 110,
         "finnish": "kaksituhatta",
-        "English": "two thousand",
-        "Russian": "две тысячи",
-        "Chapter": 1
+        "english": "two thousand",
+        "russian": "две тысячи",
+        "chapter": 1
     },
     {
+        "id": 111,
         "finnish": "viisisataatuhatta",
-        "English": "five hundred thousand",
-        "Russian": "пятьсот тысяч",
-        "Chapter": 1
+        "english": "five hundred thousand",
+        "russian": "пятьсот тысяч",
+        "chapter": 1
     },
     {
+        "id": 112,
         "finnish": "miljoona",
-        "English": "million",
-        "Russian": "миллион",
-        "Chapter": 1
+        "english": "million",
+        "russian": "миллион",
+        "chapter": 1
     },
     {
+        "id": 113,
         "finnish": "kaksi miljoonaa",
-        "English": "two million",
-        "Russian": "два миллиона",
-        "Chapter": 1
+        "english": "two million",
+        "russian": "два миллиона",
+        "chapter": 1
     },
     {
+        "id": 114,
         "finnish": "puisto",
-        "English": "park",
-        "Russian": "парк",
-        "Chapter": 2
+        "english": "park",
+        "russian": "парк",
+        "chapter": 2
     },
     {
+        "id": 115,
         "finnish": "loppua",
-        "English": "(to) end",
-        "Russian": "кончиться",
-        "Chapter": 2
+        "english": "(to) end",
+        "russian": "кончиться",
+        "chapter": 2
     },
     {
+        "id": 116,
         "finnish": "kello",
-        "English": "o’clock; clock",
-        "Russian": "1. часы 2. в (сколько) часов 3. колокол",
-        "Chapter": 2
+        "english": "o’clock; clock",
+        "russian": "1. часы 2. в (сколько) часов 3. колокол",
+        "chapter": 2
     },
     {
+        "id": 117,
         "finnish": "muu",
-        "English": "other",
-        "Russian": "другой",
-        "Chapter": 2
+        "english": "other",
+        "russian": "другой",
+        "chapter": 2
     },
     {
+        "id": 118,
         "finnish": "opiskelija",
-        "English": "student",
-        "Russian": "студент",
-        "Chapter": 2
+        "english": "student",
+        "russian": "студент",
+        "chapter": 2
     },
     {
+        "id": 119,
         "finnish": "mennä",
-        "English": "(to) go",
-        "Russian": "идти,ехать",
-        "Chapter": 2
+        "english": "(to) go",
+        "russian": "идти,ехать",
+        "chapter": 2
     },
     {
+        "id": 120,
         "finnish": "koti",
-        "English": "home",
-        "Russian": "дом",
-        "Chapter": 2
+        "english": "home",
+        "russian": "дом",
+        "chapter": 2
     },
     {
+        "id": 121,
         "finnish": "mutta",
-        "English": "but",
-        "Russian": "но",
-        "Chapter": 2
+        "english": "but",
+        "russian": "но",
+        "chapter": 2
     },
     {
+        "id": 122,
         "finnish": "kioski",
-        "English": "kiosk",
-        "Russian": "киоск",
-        "Chapter": 2
+        "english": "kiosk",
+        "russian": "киоск",
+        "chapter": 2
     },
     {
+        "id": 123,
         "finnish": "ostaa",
-        "English": "(to) buy",
-        "Russian": "купить",
-        "Chapter": 2
+        "english": "(to) buy",
+        "russian": "купить",
+        "chapter": 2
     },
     {
+        "id": 124,
         "finnish": "jäätelö",
-        "English": "ice cream",
-        "Russian": "мороженое",
-        "Chapter": 2
+        "english": "ice cream",
+        "russian": "мороженое",
+        "chapter": 2
     },
     {
+        "id": 125,
         "finnish": "maksaa",
-        "English": "(to) cost; (to) pay",
-        "Russian": "1. стоить 2. платить",
-        "Chapter": 2
+        "english": "(to) cost; (to) pay",
+        "russian": "1. стоить 2. платить",
+        "chapter": 2
     },
     {
+        "id": 126,
         "finnish": "euro",
-        "English": "euro",
-        "Russian": "евро",
-        "Chapter": 2
+        "english": "euro",
+        "russian": "евро",
+        "chapter": 2
     },
     {
+        "id": 127,
         "finnish": "säästää",
-        "English": "(to) save",
-        "Russian": "1. экономить 2. копить",
-        "Chapter": 2
+        "english": "(to) save",
+        "russian": "1. экономить 2. копить",
+        "chapter": 2
     },
     {
+        "id": 128,
         "finnish": "raha",
-        "English": "money",
-        "Russian": "деньги",
-        "Chapter": 2
+        "english": "money",
+        "russian": "деньги",
+        "chapter": 2
     },
     {
+        "id": 129,
         "finnish": "sitten",
-        "English": "then",
-        "Russian": "потом",
-        "Chapter": 2
+        "english": "then",
+        "russian": "потом",
+        "chapter": 2
     },
     {
+        "id": 130,
         "finnish": "istua",
-        "English": "(to) sit",
-        "Russian": "сидеть",
-        "Chapter": 2
+        "english": "(to) sit",
+        "russian": "сидеть",
+        "chapter": 2
     },
     {
+        "id": 131,
         "finnish": "puhua",
-        "English": "(to) speak",
-        "Russian": "говорить",
-        "Chapter": 2
+        "english": "(to) speak",
+        "russian": "говорить",
+        "chapter": 2
     },
     {
+        "id": 132,
         "finnish": "nauraa",
-        "English": "(to) laugh",
-        "Russian": "смеяться",
-        "Chapter": 2
+        "english": "(to) laugh",
+        "russian": "смеяться",
+        "chapter": 2
     },
     {
+        "id": 133,
         "finnish": "minkämaalainen",
-        "English": "Where are you from?",
-        "Russian": "из какой страны",
-        "Chapter": 2
+        "english": "Where are you from?",
+        "russian": "из какой страны",
+        "chapter": 2
     },
     {
+        "id": 134,
         "finnish": "brasilialainen",
-        "English": "Brazilian",
-        "Russian": "1. бразилец, бразильянка 2. бразильский",
-        "Chapter": 2
+        "english": "Brazilian",
+        "russian": "1. бразилец, бразильянка 2. бразильский",
+        "chapter": 2
     },
     {
+        "id": 135,
         "finnish": "venäläinen",
-        "English": "Russian",
-        "Russian": "русский",
-        "Chapter": 2
+        "english": "russian",
+        "russian": "русский",
+        "chapter": 2
     },
     {
+        "id": 136,
         "finnish": "entä",
-        "English": "what about",
-        "Russian": "а",
-        "Chapter": 2
+        "english": "what about",
+        "russian": "а",
+        "chapter": 2
     },
     {
+        "id": 137,
         "finnish": "mistä",
-        "English": "where",
-        "Russian": "откуда",
-        "Chapter": 2
+        "english": "where",
+        "russian": "откуда",
+        "chapter": 2
     },
     {
+        "id": 138,
         "finnish": "kotoisin",
-        "English": "from",
-        "Russian": "родом",
-        "Chapter": 2
+        "english": "from",
+        "russian": "родом",
+        "chapter": 2
     },
     {
+        "id": 139,
         "finnish": "Etelä-Afrikka",
-        "English": "South Africa",
-        "Russian": "Южная Африка",
-        "Chapter": 2
+        "english": "South Africa",
+        "russian": "Южная Африка",
+        "chapter": 2
     },
     {
+        "id": 140,
         "finnish": "ai jaa",
-        "English": "okay",
-        "Russian": "ах вот как",
-        "Chapter": 2
+        "english": "okay",
+        "russian": "ах вот как",
+        "chapter": 2
     },
     {
+        "id": 141,
         "finnish": "kieli",
-        "English": "language; tongue",
-        "Russian": "язык",
-        "Chapter": 2
+        "english": "language; tongue",
+        "russian": "язык",
+        "chapter": 2
     },
     {
+        "id": 142,
         "finnish": "minun",
-        "English": "my",
-        "Russian": "мой",
-        "Chapter": 2
+        "english": "my",
+        "russian": "мой",
+        "chapter": 2
     },
     {
+        "id": 143,
         "finnish": "äidinkieli",
-        "English": "mother tongue",
-        "Russian": "родной язык",
-        "Chapter": 2
+        "english": "mother tongue",
+        "russian": "родной язык",
+        "chapter": 2
     },
     {
+        "id": 144,
         "finnish": "englanti",
-        "English": "English",
-        "Russian": "английский язык",
-        "Chapter": 2
+        "english": "english",
+        "russian": "английский язык",
+        "chapter": 2
     },
     {
+        "id": 145,
         "finnish": "myös",
-        "English": "also",
-        "Russian": "тоже",
-        "Chapter": 2
+        "english": "also",
+        "russian": "тоже",
+        "chapter": 2
     },
     {
+        "id": 146,
         "finnish": "vähän",
-        "English": "a little",
-        "Russian": "немного",
-        "Chapter": 2
+        "english": "a little",
+        "russian": "немного",
+        "chapter": 2
     },
     {
+        "id": 147,
         "finnish": "espanja",
-        "English": "Spanish",
-        "Russian": "испанский язык",
-        "Chapter": 2
+        "english": "Spanish",
+        "russian": "испанский язык",
+        "chapter": 2
     },
     {
+        "id": 148,
         "finnish": "-ko/kö",
-        "English": "(expresses a question)",
-        "Russian": "ли (в вопросе)",
-        "Chapter": 2
+        "english": "(expresses a question)",
+        "russian": "ли (в вопросе)",
+        "chapter": 2
     },
     {
+        "id": 149,
         "finnish": "sinun",
-        "English": "your",
-        "Russian": "твой",
-        "Chapter": 2
+        "english": "your",
+        "russian": "твой",
+        "chapter": 2
     },
     {
+        "id": 150,
         "finnish": "portugali",
-        "English": "Portuguese",
-        "Russian": "португальский язык",
-        "Chapter": 2
+        "english": "Portuguese",
+        "russian": "португальский язык",
+        "chapter": 2
     },
     {
+        "id": 151,
         "finnish": "ai niin",
-        "English": "right",
-        "Russian": "ах да",
-        "Chapter": 2
+        "english": "right",
+        "russian": "ах да",
+        "chapter": 2
     },
     {
+        "id": 152,
         "finnish": "tietysti",
-        "English": "of course",
-        "Russian": "конечно",
-        "Chapter": 2
+        "english": "of course",
+        "russian": "конечно",
+        "chapter": 2
     },
     {
+        "id": 153,
         "finnish": "ajaa",
-        "English": "(to) drive",
-        "Russian": "ехать,водить",
-        "Chapter": 2
+        "english": "(to) drive",
+        "russian": "ехать,водить",
+        "chapter": 2
     },
     {
+        "id": 154,
         "finnish": "auto",
-        "English": "car",
-        "Russian": "автомобиль",
-        "Chapter": 2
+        "english": "car",
+        "russian": "автомобиль",
+        "chapter": 2
     },
     {
+        "id": 155,
         "finnish": "bussipysäkki",
-        "English": "bus stop",
-        "Russian": "автобусная остановка",
-        "Chapter": 2
+        "english": "bus stop",
+        "russian": "автобусная остановка",
+        "chapter": 2
     },
     {
+        "id": 156,
         "finnish": "missä",
-        "English": "where",
-        "Russian": "где",
-        "Chapter": 2
+        "english": "where",
+        "russian": "где",
+        "chapter": 2
     },
     {
+        "id": 157,
         "finnish": "asua",
-        "English": "(to) live",
-        "Russian": "жить (где)",
-        "Chapter": 2
+        "english": "(to) live",
+        "russian": "жить (где)",
+        "chapter": 2
     },
     {
+        "id": 158,
         "finnish": "numero",
-        "English": "number",
-        "Russian": "номер",
-        "Chapter": 2
+        "english": "number",
+        "russian": "номер",
+        "chapter": 2
     },
     {
+        "id": 159,
         "finnish": "vaan",
-        "English": "but",
-        "Russian": "а",
-        "Chapter": 2
+        "english": "but",
+        "russian": "а",
+        "chapter": 2
     },
     {
+        "id": 160,
         "finnish": "nyt",
-        "English": "now",
-        "Russian": "сейчас,теперь",
-        "Chapter": 2
+        "english": "now",
+        "russian": "сейчас,теперь",
+        "chapter": 2
     },
     {
+        "id": 161,
         "finnish": "maksaa",
-        "English": "(to) cost; (to) pay",
-        "Russian": "1. стоить 2. платить",
-        "Chapter": 2
+        "english": "(to) cost; (to) pay",
+        "russian": "1. стоить 2. платить",
+        "chapter": 2
     },
     {
+        "id": 162,
         "finnish": "pallo",
-        "English": "ball",
-        "Russian": "шар, мяч",
-        "Chapter": 2
+        "english": "ball",
+        "russian": "шар, мяч",
+        "chapter": 2
     },
     {
+        "id": 163,
         "finnish": "ahaa",
-        "English": "oh,I see",
-        "Russian": "ясно, понятно",
-        "Chapter": 2
+        "english": "oh,I see",
+        "russian": "ясно, понятно",
+        "chapter": 2
     },
     {
+        "id": 164,
         "finnish": "haluaisin",
-        "English": "1 would like",
-        "Russian": "я хотел бы",
-        "Chapter": 2
+        "english": "1 would like",
+        "russian": "я хотел бы",
+        "chapter": 2
     },
     {
+        "id": 165,
         "finnish": "suklaa",
-        "English": "chocolate",
-        "Russian": "шоколад",
-        "Chapter": 2
+        "english": "chocolate",
+        "russian": "шоколад",
+        "chapter": 2
     },
     {
+        "id": 166,
         "finnish": "okei",
-        "English": "okay",
-        "Russian": "окей",
-        "Chapter": 2
+        "english": "okay",
+        "russian": "окей",
+        "chapter": 2
     },
     {
+        "id": 167,
         "finnish": "sinulle",
-        "English": "for you",
-        "Russian": "тебе",
-        "Chapter": 2
+        "english": "for you",
+        "russian": "тебе",
+        "chapter": 2
     },
     {
+        "id": 168,
         "finnish": "-kin",
-        "English": "also",
-        "Russian": "тоже",
-        "Chapter": 2
+        "english": "also",
+        "russian": "тоже",
+        "chapter": 2
     },
     {
+        "id": 169,
         "finnish": "vanilja",
-        "English": "vanilla",
-        "Russian": "ваниль",
-        "Chapter": 2
+        "english": "vanilla",
+        "russian": "ваниль",
+        "chapter": 2
     },
     {
+        "id": 170,
         "finnish": "mansikka",
-        "English": "strawberry",
-        "Russian": "клубника, земляника",
-        "Chapter": 2
+        "english": "strawberry",
+        "russian": "клубника, земляника",
+        "chapter": 2
     },
     {
+        "id": 171,
         "finnish": "selvä",
-        "English": "right",
-        "Russian": "ясный, ясно",
-        "Chapter": 2
+        "english": "right",
+        "russian": "ясный, ясно",
+        "chapter": 2
     },
     {
+        "id": 172,
         "finnish": "tuleeko muuta",
-        "English": "anything else",
-        "Russian": "хотите еще что-нибудь?",
-        "Chapter": 2
+        "english": "anything else",
+        "russian": "хотите еще что-нибудь?",
+        "chapter": 2
     },
     {
+        "id": 173,
         "finnish": "tässä",
-        "English": "here",
-        "Russian": "вот, здесь",
-        "Chapter": 2
+        "english": "here",
+        "russian": "вот, здесь",
+        "chapter": 2
     },
     {
+        "id": 174,
         "finnish": "euro",
-        "English": "euro",
-        "Russian": "евро",
-        "Chapter": 2
+        "english": "euro",
+        "russian": "евро",
+        "chapter": 2
     },
     {
+        "id": 175,
         "finnish": "maa",
-        "English": "country; land",
-        "Russian": "1. страна 2. земля",
-        "Chapter": 2
+        "english": "country; land",
+        "russian": "1. страна 2. земля",
+        "chapter": 2
     },
     {
+        "id": 176,
         "finnish": "kansalaisuus",
-        "English": "nationality",
-        "Russian": "гражданство",
-        "Chapter": 2
+        "english": "nationality",
+        "russian": "гражданство",
+        "chapter": 2
     },
     {
+        "id": 177,
         "finnish": "kieli",
-        "English": "language; tongue",
-        "Russian": "язык",
-        "Chapter": 2
+        "english": "language; tongue",
+        "russian": "язык",
+        "chapter": 2
     },
     {
+        "id": 178,
         "finnish": "Suomi",
-        "English": "Finland",
-        "Russian": "Финляндия",
-        "Chapter": 2
+        "english": "Finland",
+        "russian": "Финляндия",
+        "chapter": 2
     },
     {
+        "id": 179,
         "finnish": "Ranska",
-        "English": "France",
-        "Russian": "Франция",
-        "Chapter": 2
+        "english": "France",
+        "russian": "Франция",
+        "chapter": 2
     },
     {
+        "id": 180,
         "finnish": "Kreikka",
-        "English": "Greece",
-        "Russian": "Греция",
-        "Chapter": 2
+        "english": "Greece",
+        "russian": "Греция",
+        "chapter": 2
     },
     {
+        "id": 181,
         "finnish": "Islanti",
-        "English": "Iceland",
-        "Russian": "Исландия",
-        "Chapter": 2
+        "english": "Iceland",
+        "russian": "Исландия",
+        "chapter": 2
     },
     {
+        "id": 182,
         "finnish": "Egypti",
-        "English": "Egypt",
-        "Russian": "Египет",
-        "Chapter": 2
+        "english": "Egypt",
+        "russian": "Египет",
+        "chapter": 2
     },
     {
+        "id": 183,
         "finnish": "Venäjä",
-        "English": "Russia",
-        "Russian": "Россия",
-        "Chapter": 2
+        "english": "Russia",
+        "russian": "Россия",
+        "chapter": 2
     },
     {
+        "id": 184,
         "finnish": "Pakistan",
-        "English": "Pakistan",
-        "Russian": "Пакистан",
-        "Chapter": 2
+        "english": "Pakistan",
+        "russian": "Пакистан",
+        "chapter": 2
     },
     {
+        "id": 185,
         "finnish": "suomalainen",
-        "English": "Finnish",
-        "Russian": "1. финн, финка 2. финский",
-        "Chapter": 2
+        "english": "Finnish",
+        "russian": "1. финн, финка 2. финский",
+        "chapter": 2
     },
     {
+        "id": 186,
         "finnish": "ranskalainen",
-        "English": "French",
-        "Russian": "1. француз, француженка 2. французский",
-        "Chapter": 2
+        "english": "French",
+        "russian": "1. француз, француженка 2. французский",
+        "chapter": 2
     },
     {
+        "id": 187,
         "finnish": "kreikkalainen",
-        "English": "Greek",
-        "Russian": "1.грек,гречанка 2.греческий",
-        "Chapter": 2
+        "english": "Greek",
+        "russian": "1.грек,гречанка 2.греческий",
+        "chapter": 2
     },
     {
+        "id": 188,
         "finnish": "islantilainen",
-        "English": "Icelandic",
-        "Russian": "1. исландец,исландка 2. исландский",
-        "Chapter": 2
+        "english": "Icelandic",
+        "russian": "1. исландец,исландка 2. исландский",
+        "chapter": 2
     },
     {
+        "id": 189,
         "finnish": "egyptiläinen",
-        "English": "Egyptian",
-        "Russian": "1.египтянин,египтянка 2.египетский",
-        "Chapter": 2
+        "english": "Egyptian",
+        "russian": "1.египтянин,египтянка 2.египетский",
+        "chapter": 2
     },
     {
+        "id": 190,
         "finnish": "venäläinen",
-        "English": "Russian",
-        "Russian": "русский",
-        "Chapter": 2
+        "english": "russian",
+        "russian": "русский",
+        "chapter": 2
     },
     {
+        "id": 191,
         "finnish": "pakistanilainen",
-        "English": "Pakistani",
-        "Russian": "1. пакистанец,пакистанка 2.пакистанский",
-        "Chapter": 2
+        "english": "Pakistani",
+        "russian": "1. пакистанец,пакистанка 2.пакистанский",
+        "chapter": 2
     },
     {
+        "id": 192,
         "finnish": "suomi",
-        "English": "Finnish",
-        "Russian": "финский язык",
-        "Chapter": 2
+        "english": "Finnish",
+        "russian": "финский язык",
+        "chapter": 2
     },
     {
+        "id": 193,
         "finnish": "ranska",
-        "English": "French",
-        "Russian": "французский язык",
-        "Chapter": 2
+        "english": "French",
+        "russian": "французский язык",
+        "chapter": 2
     },
     {
+        "id": 194,
         "finnish": "kreikka",
-        "English": "Greek",
-        "Russian": "греческий язык",
-        "Chapter": 2
+        "english": "Greek",
+        "russian": "греческий язык",
+        "chapter": 2
     },
     {
+        "id": 195,
         "finnish": "islanti",
-        "English": "Icelandic",
-        "Russian": "исландский язык",
-        "Chapter": 2
+        "english": "Icelandic",
+        "russian": "исландский язык",
+        "chapter": 2
     },
     {
+        "id": 196,
         "finnish": "arabia",
-        "English": "Arabic",
-        "Russian": "арабский язык",
-        "Chapter": 2
+        "english": "Arabic",
+        "russian": "арабский язык",
+        "chapter": 2
     },
     {
+        "id": 197,
         "finnish": "venäjä",
-        "English": "Russian",
-        "Russian": "русский язык",
-        "Chapter": 2
+        "english": "russian",
+        "russian": "русский язык",
+        "chapter": 2
     },
     {
+        "id": 198,
         "finnish": "urdu",
-        "English": "Urdu",
-        "Russian": "УРДУ",
-        "Chapter": 2
+        "english": "Urdu",
+        "russian": "УРДУ",
+        "chapter": 2
     },
     {
+        "id": 199,
         "finnish": "Mistä sinä olet kotoisin?",
-        "English": "Where are you from?",
-        "Russian": "Откуда ты родом?",
-        "Chapter": 2
+        "english": "Where are you from?",
+        "russian": "Откуда ты родом?",
+        "chapter": 2
     },
     {
+        "id": 200,
         "finnish": "Minkämaalainen sinä olet?",
-        "English": "Which country are you from?",
-        "Russian": "Ты из какой страны?",
-        "Chapter": 2
+        "english": "Which country are you from?",
+        "russian": "Ты из какой страны?",
+        "chapter": 2
     },
     {
+        "id": 201,
         "finnish": "Mitä kieltä sinä puhut?",
-        "English": "What language do you speak?",
-        "Russian": "На каком языке ты говоришь?",
-        "Chapter": 2
+        "english": "What language do you speak?",
+        "russian": "На каком языке ты говоришь?",
+        "chapter": 2
     },
     {
+        "id": 202,
         "finnish": "olla kotoisin",
-        "English": "come from",
-        "Russian": "быть родом (откуда)",
-        "Chapter": 2
+        "english": "come from",
+        "russian": "быть родом (откуда)",
+        "chapter": 2
     },
     {
+        "id": 203,
         "finnish": "puhua",
-        "English": "(to) speak",
-        "Russian": "говорить",
-        "Chapter": 2
+        "english": "(to) speak",
+        "russian": "говорить",
+        "chapter": 2
     },
     {
+        "id": 204,
         "finnish": "maailma",
-        "English": "world",
-        "Russian": "мир",
-        "Chapter": 2
+        "english": "world",
+        "russian": "мир",
+        "chapter": 2
     },
     {
+        "id": 205,
         "finnish": "pohjoisnapa",
-        "English": "North Pole",
-        "Russian": "Северный полюс",
-        "Chapter": 2
+        "english": "North Pole",
+        "russian": "Северный полюс",
+        "chapter": 2
     },
     {
+        "id": 206,
         "finnish": "Pohjois-Amerikka",
-        "English": "North America",
-        "Russian": "Северная Америка",
-        "Chapter": 2
+        "english": "North America",
+        "russian": "Северная Америка",
+        "chapter": 2
     },
     {
+        "id": 207,
         "finnish": "Etelä-Amerikka",
-        "English": "South America",
-        "Russian": "Южная Америка",
-        "Chapter": 2
+        "english": "South America",
+        "russian": "Южная Америка",
+        "chapter": 2
     },
     {
+        "id": 208,
         "finnish": "Eurooppa",
-        "English": "Europe",
-        "Russian": "Европа",
-        "Chapter": 2
+        "english": "Europe",
+        "russian": "Европа",
+        "chapter": 2
     },
     {
+        "id": 209,
         "finnish": "Afrikka",
-        "English": "Africa",
-        "Russian": "Африка",
-        "Chapter": 2
+        "english": "Africa",
+        "russian": "Африка",
+        "chapter": 2
     },
     {
+        "id": 210,
         "finnish": "Aasia",
-        "English": "Asia",
-        "Russian": "Азия",
-        "Chapter": 2
+        "english": "Asia",
+        "russian": "Азия",
+        "chapter": 2
     },
     {
+        "id": 211,
         "finnish": "Australia",
-        "English": "Australia",
-        "Russian": "Австралия",
-        "Chapter": 2
+        "english": "Australia",
+        "russian": "Австралия",
+        "chapter": 2
     },
     {
+        "id": 212,
         "finnish": "Etelämanner",
-        "English": "Antarctica",
-        "Russian": "Антарктида",
-        "Chapter": 2
+        "english": "Antarctica",
+        "russian": "Антарктида",
+        "chapter": 2
     },
     {
+        "id": 213,
         "finnish": "ilmansuunnat",
-        "English": "points of the compass",
-        "Russian": "страны света, стороны горизонта",
-        "Chapter": 2
+        "english": "points of the compass",
+        "russian": "страны света, стороны горизонта",
+        "chapter": 2
     },
     {
+        "id": 214,
         "finnish": "pohjoinen",
-        "English": "north",
-        "Russian": "север",
-        "Chapter": 2
+        "english": "north",
+        "russian": "север",
+        "chapter": 2
     },
     {
+        "id": 215,
         "finnish": "etelä",
-        "English": "south",
-        "Russian": "юг",
-        "Chapter": 2
+        "english": "south",
+        "russian": "юг",
+        "chapter": 2
     },
     {
+        "id": 216,
         "finnish": "itä",
-        "English": "east",
-        "Russian": "восток",
-        "Chapter": 2
+        "english": "east",
+        "russian": "восток",
+        "chapter": 2
     },
     {
+        "id": 217,
         "finnish": "länsi",
-        "English": "west",
-        "Russian": "запад",
-        "Chapter": 2
+        "english": "west",
+        "russian": "запад",
+        "chapter": 2
     },
     {
+        "id": 218,
         "finnish": "hinta",
-        "English": "price",
-        "Russian": "цена",
-        "Chapter": 2
+        "english": "price",
+        "russian": "цена",
+        "chapter": 2
     },
     {
+        "id": 219,
         "finnish": "raha",
-        "English": "money",
-        "Russian": "деньги",
-        "Chapter": 2
+        "english": "money",
+        "russian": "деньги",
+        "chapter": 2
     },
     {
+        "id": 220,
         "finnish": "Mitä tämä maksaa?",
-        "English": "How much does this cost?",
-        "Russian": "Сколько это стоит?",
-        "Chapter": 2
+        "english": "How much does this cost?",
+        "russian": "Сколько это стоит?",
+        "chapter": 2
     },
     {
+        "id": 221,
         "finnish": "euro",
-        "English": "euro",
-        "Russian": "евро",
-        "Chapter": 2
+        "english": "euro",
+        "russian": "евро",
+        "chapter": 2
     },
     {
+        "id": 222,
         "finnish": "sentti",
-        "English": "cent",
-        "Russian": "цент",
-        "Chapter": 2
+        "english": "cent",
+        "russian": "цент",
+        "chapter": 2
     },
     {
+        "id": 223,
         "finnish": "seteli",
-        "English": "note, bill",
-        "Russian": "денежный знак, купюра",
-        "Chapter": 2
+        "english": "note, bill",
+        "russian": "денежный знак, купюра",
+        "chapter": 2
     },
     {
+        "id": 224,
         "finnish": "kolikko",
-        "English": "coin",
-        "Russian": "монета",
-        "Chapter": 2
+        "english": "coin",
+        "russian": "монета",
+        "chapter": 2
     },
     {
+        "id": 225,
         "finnish": "halpa",
-        "English": "cheap",
-        "Russian": "дешевый",
-        "Chapter": 2
+        "english": "cheap",
+        "russian": "дешевый",
+        "chapter": 2
     },
     {
+        "id": 226,
         "finnish": "kallis",
-        "English": "expensive",
-        "Russian": "дорогой",
-        "Chapter": 2
+        "english": "expensive",
+        "russian": "дорогой",
+        "chapter": 2
     }
 ]
