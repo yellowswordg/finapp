@@ -1,5 +1,6 @@
 import 'package:finapp/models/word.dart';
 import 'package:finapp/size_config.dart';
+import 'package:finapp/utils/constatnts.dart';
 import 'package:flutter/material.dart';
 
 class Dictionary extends StatefulWidget {
@@ -13,40 +14,64 @@ class _DictionaryState extends State<Dictionary> {
     SizeConfig().init(context);
     // double defaultSize = SizeConfig.defaultSize;
     return Scaffold(
+      resizeToAvoidBottomPadding: true,
       appBar: AppBar(
         centerTitle: true,
         title: Text('dict'),
+        elevation: 0,
       ),
       body: SingleChildScrollView(
         child: Column(
           children: [
             Padding(
-              padding:
-                  const EdgeInsets.symmetric(horizontal: 60.0, vertical: 20.0),
+              padding: EdgeInsets.symmetric(
+                  horizontal: 80.0, vertical: SizeConfig.blockSizeVertical * 3),
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.spaceAround,
                 children: [
-                  FlatButton(
+                  RaisedButton(
+                    elevation: 4,
                     shape: RoundedRectangleBorder(
                         borderRadius: BorderRadius.circular(10)),
                     padding: EdgeInsets.symmetric(vertical: 15),
-                    color: Theme.of(context).primaryColorLight,
+                    color: Theme.of(context).primaryColor,
                     onPressed: () {},
-                    child: Text('FIN - ENG'),
+                    child: Row(
+                      children: [
+                        Text('ENG', style: TextStyle(color: kBlue)),
+                        Icon(
+                          Icons.keyboard_arrow_right,
+                          size: 12,
+                          color: Colors.grey,
+                        ),
+                        Text('FIN', style: TextStyle(color: kOrange)),
+                      ],
+                    ),
                   ),
-                  FlatButton(
+                  RaisedButton(
+                    elevation: 0,
                     shape: RoundedRectangleBorder(
                         borderRadius: BorderRadius.circular(10)),
                     padding: EdgeInsets.symmetric(vertical: 15),
-                    color: Theme.of(context).primaryColorLight,
+                    color: Theme.of(context).primaryColor,
                     onPressed: () {},
-                    child: Text('ENG -FIN'),
+                    child: Row(
+                      children: [
+                        Text('FIN', style: TextStyle(color: kOrange)),
+                        Icon(
+                          Icons.keyboard_arrow_right,
+                          size: 12,
+                          color: Colors.grey,
+                        ),
+                        Text('ENG', style: TextStyle(color: kBlue)),
+                      ],
+                    ),
                   ),
                 ],
               ),
             ),
             Container(
-              width: SizeConfig.blockSizeHorizontal * 80,
+              width: SizeConfig.blockSizeHorizontal * 90,
               height: SizeConfig.blockSizeHorizontal * 15,
               child: Row(
                 children: [
@@ -55,9 +80,9 @@ class _DictionaryState extends State<Dictionary> {
                       decoration: InputDecoration(
                         contentPadding:
                             EdgeInsets.symmetric(horizontal: 10, vertical: 0),
-                        fillColor: Theme.of(context).primaryColorLight,
+                        fillColor: Theme.of(context).primaryColor,
                         filled: true,
-                        hintText: 'Enter a  word',
+                        hintText: 'Enter a word',
                         border: OutlineInputBorder(
                           borderRadius: BorderRadius.circular(10.0),
                           borderSide: BorderSide(width: 0.8),
@@ -75,64 +100,227 @@ class _DictionaryState extends State<Dictionary> {
                   SizedBox(
                     width: 10,
                   ),
-                  FlatButton(
+                  RaisedButton(
+                    elevation: 4,
                     shape: RoundedRectangleBorder(
                         borderRadius: BorderRadius.circular(10)),
                     padding: EdgeInsets.symmetric(vertical: 15),
-                    color: Theme.of(context).primaryColorLight,
+                    color: Theme.of(context).primaryColor,
                     onPressed: () {},
-                    child: Text('SEARCH'),
+                    child: Text(
+                      'SEARCH',
+                      style: TextStyle(
+                        color: kRed,
+                        fontSize: 12,
+                        fontWeight: FontWeight.bold,
+                      ),
+                    ),
                   ),
                 ],
               ),
             ),
             SizedBox(
-              height: 10,
+              height: SizeConfig.blockSizeVertical * 4,
             ),
-            Container(
-              width: SizeConfig.blockSizeHorizontal * 80,
-              height: SizeConfig.blockSizeVertical * 60,
-              decoration: BoxDecoration(
-                borderRadius: BorderRadius.circular(10),
-                color: Theme.of(context).primaryColorLight,
-                border:
-                    Border.all(width: 2, color: Theme.of(context).accentColor),
-              ),
-              child: ListView.separated(
-                itemCount: words.length,
-                separatorBuilder: (context, index) => Divider(
-                  thickness: 2,
-                  color: Theme.of(context).accentColor,
-                ),
-                itemBuilder: (BuildContext context, int index) {
-                  Word word = words[index];
-                  return Container(
-                    child: Padding(
-                      padding: const EdgeInsets.all(8.0),
-                      child: Row(
-                        children: [
-                          Expanded(
-                            child: Text(
-                              word.finnish,
-                              style: TextStyle(fontSize: 20),
-                            ),
-                          ),
-                          Expanded(
-                            child: Text(
-                              word.english,
-                              style: TextStyle(fontSize: 20),
-                            ),
-                          ),
-                        ],
+            Stack(
+              overflow: Overflow.visible,
+              children: [
+                // Positioned(
+                //   top: -30,
+                //   left: SizeConfig.blockSizeHorizontal * 90 / 2 - 15,
+                //   child: Container(
+                //     child: CustomPaint(
+                //         size: Size(40, 40), painter: DrawTriangle()),
+                //   ),
+                // ),
+                Container(
+                    width: SizeConfig.blockSizeHorizontal * 90,
+                    height: SizeConfig.blockSizeVertical * 60,
+                    decoration: BoxDecoration(
+                      borderRadius: BorderRadius.circular(10),
+                      // color: Theme.of(context).primaryColorLight,
+                      border: Border.all(
+                        width: 2,
+                        color: Theme.of(context).scaffoldBackgroundColor,
                       ),
                     ),
-                  );
-                },
-              ),
+                    child: Column(
+                      children: [
+                        ...List.generate(
+                          9,
+                          (index) {
+                            if (index == 0) {
+                              return Padding(
+                                padding: EdgeInsets.only(
+                                    bottom: SizeConfig.blockSizeVertical / 2.5),
+                                child: Row(
+                                  mainAxisAlignment: MainAxisAlignment.center,
+                                  children: [
+                                    Container(
+                                      height:
+                                          SizeConfig.blockSizeVertical * 55 / 9,
+                                      width:
+                                          SizeConfig.blockSizeHorizontal * 35,
+                                      decoration: BoxDecoration(
+                                        color: Colors.white,
+                                        borderRadius: BorderRadius.only(
+                                          topLeft: Radius.circular(10),
+                                        ),
+                                      ),
+                                    ),
+                                    Container(
+                                      height:
+                                          SizeConfig.blockSizeVertical * 55 / 9,
+                                      width: SizeConfig.blockSizeHorizontal / 2,
+                                      color: kRed.withOpacity(0.4),
+                                    ),
+                                    Container(
+                                      height:
+                                          SizeConfig.blockSizeVertical * 55 / 9,
+                                      width:
+                                          SizeConfig.blockSizeHorizontal * 53,
+                                      decoration: BoxDecoration(
+                                        color: Colors.white,
+                                        borderRadius: BorderRadius.only(
+                                          topRight: Radius.circular(10),
+                                        ),
+                                      ),
+                                    ),
+                                  ],
+                                ),
+                              );
+                            }
+                            if (index == 8) {
+                              return Row(
+                                mainAxisAlignment: MainAxisAlignment.center,
+                                children: [
+                                  Container(
+                                    height:
+                                        SizeConfig.blockSizeVertical * 55 / 9,
+                                    width: SizeConfig.blockSizeHorizontal * 35,
+                                    decoration: BoxDecoration(
+                                      color: Colors.white,
+                                      borderRadius: BorderRadius.only(
+                                        bottomLeft: Radius.circular(10),
+                                      ),
+                                    ),
+                                  ),
+                                  Container(
+                                    height:
+                                        SizeConfig.blockSizeVertical * 55 / 9,
+                                    width: SizeConfig.blockSizeHorizontal / 2,
+                                    color: kRed.withOpacity(0.4),
+                                  ),
+                                  Container(
+                                    height:
+                                        SizeConfig.blockSizeVertical * 55 / 9,
+                                    width: SizeConfig.blockSizeHorizontal * 53,
+                                    decoration: BoxDecoration(
+                                      color: Colors.white,
+                                      borderRadius: BorderRadius.only(
+                                        bottomRight: Radius.circular(10),
+                                      ),
+                                    ),
+                                  ),
+                                ],
+                              );
+                            }
+                            return Padding(
+                              padding: EdgeInsets.only(
+                                  bottom: SizeConfig.blockSizeVertical / 2.5),
+                              child: Row(
+                                mainAxisAlignment: MainAxisAlignment.center,
+                                children: [
+                                  Container(
+                                    height:
+                                        SizeConfig.blockSizeVertical * 55 / 9,
+                                    width: SizeConfig.blockSizeHorizontal * 35,
+                                    decoration: BoxDecoration(
+                                      color: Colors.white,
+                                    ),
+                                  ),
+                                  Container(
+                                    height:
+                                        SizeConfig.blockSizeVertical * 55 / 9,
+                                    width: SizeConfig.blockSizeHorizontal / 2,
+                                    color: kRed.withOpacity(0.4),
+                                  ),
+                                  Container(
+                                    height:
+                                        SizeConfig.blockSizeVertical * 55 / 9,
+                                    width: SizeConfig.blockSizeHorizontal * 53,
+                                    decoration: BoxDecoration(
+                                      color: Colors.white,
+                                    ),
+                                  ),
+                                ],
+                              ),
+                            );
+                          },
+                        ),
+                      ],
+                    )
+                    // child: ListView.separated(
+                    //   itemCount: words.length,
+                    //   separatorBuilder: (context, index) => Divider(
+                    //     thickness: 2,
+                    //     height: 0,
+                    //     color: Theme.of(context).scaffoldBackgroundColor,
+                    //   ),
+                    //   itemBuilder: (BuildContext context, int index) {
+                    //     Word word = words[index];
+                    //     return Container(
+                    //       child: Column(
+                    //         children: [
+                    //           Row(
+                    //             mainAxisAlignment: MainAxisAlignment.center,
+                    //             children: [
+                    //               Container(
+                    //                 height: 50,
+                    //                 width: SizeConfig.blockSizeHorizontal * 30,
+                    //                 color: Colors.amber,
+                    //               ),
+                    //               Container(
+                    //                 height: 50,
+                    //                 width: SizeConfig.blockSizeHorizontal * 55,
+                    //                 color: Colors.amber,
+                    //               ),
+                    //             ],
+                    //           ),
+                    //         ],
+                    //       ),
+                    //     );
+                    //   },
+                    // ),
+                    ),
+              ],
             )
           ],
         ),
       ),
     );
+  }
+}
+
+class DrawTriangle extends CustomPainter {
+  Paint _paint;
+  DrawTriangle() {
+    _paint = Paint()
+      ..color = Colors.white
+      ..style = PaintingStyle.fill;
+  }
+  @override
+  void paint(Canvas canvas, Size size) {
+    var path = Path();
+    path.moveTo(size.width / 2, 0);
+    path.lineTo(0, size.height);
+    path.lineTo(size.height, size.width);
+    path.close();
+    canvas.drawPath(path, _paint);
+  }
+
+  @override
+  bool shouldRepaint(CustomPainter oldDelegate) {
+    return false;
   }
 }
