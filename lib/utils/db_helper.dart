@@ -13,7 +13,7 @@ class DBHelper {
     final dbPath = await getDatabasesPath();
     final path = join(dbPath, DB_NAME);
 
-    final exists = await databaseExists(dbPath);
+    final exists = await databaseExists(path);
 
     if (!exists) {
       print("Creating new copy from asset");
@@ -22,7 +22,7 @@ class DBHelper {
         await Directory(dirname(path)).create(recursive: true);
       } catch (_) {}
 
-      ByteData data = await rootBundle.load(join('assets/db', 'dict_db'));
+      ByteData data = await rootBundle.load(join('assets/db/', 'dict.db'));
       List<int> bytes =
           data.buffer.asUint8List(data.offsetInBytes, data.lengthInBytes);
       await File(path).writeAsBytes(bytes, flush: true);
