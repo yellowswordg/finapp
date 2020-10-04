@@ -7,6 +7,8 @@ import 'package:finapp/utils/constatnts.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
+import '../../utils/constatnts.dart';
+
 class Dictionary extends StatefulWidget {
   @override
   _DictionaryState createState() => _DictionaryState();
@@ -133,9 +135,9 @@ class _DictionaryState extends State<Dictionary> {
                 Stack(
                   overflow: Overflow.visible,
                   children: [
-                    TableBackground(
-                        blockSizeHorizontal: blockSizeHorizontal,
-                        blockSizeVertical: blockSizeVertical),
+                    // TableBackground(
+                    //     blockSizeHorizontal: blockSizeHorizontal,
+                    //     blockSizeVertical: blockSizeVertical),
                     Container(
                       width: blockSizeHorizontal * 90,
                       height: blockSizeVertical * 59,
@@ -145,69 +147,82 @@ class _DictionaryState extends State<Dictionary> {
                               itemCount: state.wordList.length,
                               itemBuilder: (BuildContext context, int index) {
                                 Word word = state.wordList[index];
-                                return Container(
-                                  child: Column(
-                                    children: [
-                                      Padding(
-                                        padding: EdgeInsets.only(
-                                            bottom:
-                                                SizeConfig.blockSizeVertical /
-                                                    2.5),
-                                        child: Row(
-                                          mainAxisAlignment:
-                                              MainAxisAlignment.center,
-                                          children: [
-                                            Container(
-                                              alignment: Alignment.centerLeft,
-                                              height:
-                                                  blockSizeVertical * 55 / 9,
-                                              width: blockSizeHorizontal * 35,
-                                              child: Padding(
-                                                padding: EdgeInsets.only(
-                                                    left: blockSizeHorizontal *
-                                                        3),
-                                                child: Text(
-                                                  word.finnish,
-                                                  style: TextStyle(
-                                                      fontSize: 16,
-                                                      fontWeight:
-                                                          FontWeight.w600,
-                                                      color: Color(0xFF8A8A8A)),
-                                                  overflow:
-                                                      TextOverflow.ellipsis,
-                                                  maxLines: 2,
-                                                ),
-                                              ),
-                                            ),
-                                            Container(
-                                              height:
-                                                  blockSizeVertical * 55 / 9,
-                                              width: blockSizeHorizontal / 2,
-                                            ),
-                                            Container(
-                                              alignment: Alignment.centerLeft,
-                                              height:
-                                                  blockSizeVertical * 55 / 9,
-                                              width: blockSizeHorizontal * 53,
-                                              child: Padding(
-                                                padding: EdgeInsets.only(
-                                                    left: blockSizeHorizontal *
-                                                        3),
-                                                child: Text(
-                                                  word.english,
-                                                  style: TextStyle(
-                                                    color: Color(0xFFB9B9B9),
+                                return Padding(
+                                  padding: EdgeInsets.symmetric(
+                                      vertical:
+                                          SizeConfig.blockSizeVertical / 3.5),
+                                  child: Container(
+                                    decoration: BoxDecoration(
+                                      borderRadius: BorderRadius.circular(5),
+                                      color: Colors.white,
+                                    ),
+                                    child: Column(
+                                      children: [
+                                        Padding(
+                                          padding: EdgeInsets.only(
+                                              bottom:
+                                                  SizeConfig.blockSizeVertical /
+                                                      2.5),
+                                          child: Row(
+                                            mainAxisAlignment:
+                                                MainAxisAlignment.center,
+                                            children: [
+                                              Container(
+                                                alignment: Alignment.centerLeft,
+                                                height:
+                                                    blockSizeVertical * 55 / 9,
+                                                width: blockSizeHorizontal * 35,
+                                                child: Padding(
+                                                  padding: EdgeInsets.only(
+                                                      left:
+                                                          blockSizeHorizontal *
+                                                              3),
+                                                  child: Text(
+                                                    word.finnish,
+                                                    style: TextStyle(
+                                                        fontSize: 16,
+                                                        fontWeight:
+                                                            FontWeight.w600,
+                                                        color:
+                                                            Color(0xFF8A8A8A)),
+                                                    overflow:
+                                                        TextOverflow.ellipsis,
+                                                    maxLines: 2,
                                                   ),
-                                                  overflow:
-                                                      TextOverflow.ellipsis,
-                                                  maxLines: 2,
                                                 ),
                                               ),
-                                            ),
-                                          ],
+                                              Container(
+                                                height:
+                                                    blockSizeVertical * 50 / 9,
+                                                width: blockSizeHorizontal / 2,
+                                                color: kRed.withOpacity(0.4),
+                                              ),
+                                              Container(
+                                                alignment: Alignment.centerLeft,
+                                                height:
+                                                    blockSizeVertical * 55 / 9,
+                                                width: blockSizeHorizontal * 53,
+                                                child: Padding(
+                                                  padding: EdgeInsets.only(
+                                                      left:
+                                                          blockSizeHorizontal *
+                                                              3),
+                                                  child: Text(
+                                                    word.english,
+                                                    style: TextStyle(
+                                                      color: Color(0xFFB9B9B9),
+                                                    ),
+                                                    overflow:
+                                                        TextOverflow.ellipsis,
+                                                    maxLines: 2,
+                                                  ),
+                                                ),
+                                              ),
+                                            ],
+                                          ),
                                         ),
-                                      ),
-                                    ],
+                                      ],
+                                    ),
                                   ),
                                 );
                               },
