@@ -8,6 +8,7 @@ class DictionaryState {
   final bool isSuccess;
   final bool isFailure;
   final String errorMessage;
+  final Language language;
 
   DictionaryState(
       {this.search,
@@ -15,7 +16,8 @@ class DictionaryState {
       this.isSubmiting,
       this.isSuccess,
       this.isFailure,
-      this.errorMessage});
+      this.errorMessage,
+      this.language});
 
   factory DictionaryState.empty() {
     return DictionaryState(
@@ -24,7 +26,8 @@ class DictionaryState {
         isSubmiting: false,
         isSuccess: false,
         isFailure: false,
-        errorMessage: '');
+        errorMessage: '',
+        language: Language.fin);
   }
   factory DictionaryState.submitting(
       {@required List<Word> wordList, String search}) {
@@ -59,14 +62,14 @@ class DictionaryState {
       errorMessage: errorMessage,
     );
   }
-  DictionaryState update({
-    List<Word> wordList,
-    String search,
-    bool isSubmiting,
-    bool isSuccess,
-    bool isFailure,
-    String errorMessage,
-  }) {
+  DictionaryState update(
+      {List<Word> wordList,
+      String search,
+      bool isSubmiting,
+      bool isSuccess,
+      bool isFailure,
+      String errorMessage,
+      Language language}) {
     // print(search);
     return copyWith(
         wordList: wordList,
@@ -74,7 +77,8 @@ class DictionaryState {
         isSubmiting: isSubmiting,
         isSuccess: isSuccess,
         isFailure: isFailure,
-        errorMessage: errorMessage);
+        errorMessage: errorMessage,
+        language: language);
   }
 
   DictionaryState copyWith({
@@ -84,6 +88,7 @@ class DictionaryState {
     bool isSuccess,
     bool isFailure,
     String errorMessage,
+    Language language,
   }) {
     return DictionaryState(
       wordList: wordList ?? this.wordList,
@@ -92,6 +97,7 @@ class DictionaryState {
       isSuccess: isSuccess ?? this.isSuccess,
       isFailure: isFailure ?? this.isFailure,
       errorMessage: errorMessage ?? this.errorMessage,
+      language: language ?? language,
     );
   }
 

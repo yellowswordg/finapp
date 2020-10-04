@@ -1,0 +1,1 @@
+enum Language { fin, eng }

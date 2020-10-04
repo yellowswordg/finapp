@@ -1,13 +1,18 @@
 import 'package:finapp/bloc/dictionary_bloc.dart';
-import 'package:finapp/data/data.dart';
+import 'package:finapp/models/language.dart';
 import 'package:finapp/models/word.dart';
-import 'package:finapp/screens/dictionary/widgets/TableBackground.dart';
 import 'package:finapp/size_config.dart';
 import 'package:finapp/utils/constatnts.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
+import '../../bloc/dictionary_bloc.dart';
+import '../../bloc/dictionary_bloc.dart';
 import '../../utils/constatnts.dart';
+
+import 'widgets/from_to_button.dart';
+import 'widgets/highlight_text.dart';
 
 class Dictionary extends StatefulWidget {
   @override
@@ -48,7 +53,11 @@ class _DictionaryState extends State<Dictionary> {
           resizeToAvoidBottomPadding: true,
           appBar: AppBar(
             centerTitle: true,
-            title: Text('dict'),
+            title: Icon(
+              FontAwesomeIcons.bookOpen,
+              size: 30,
+              color: kRed.withOpacity(0.7),
+            ),
             elevation: 0,
           ),
           body: SingleChildScrollView(
@@ -61,16 +70,29 @@ class _DictionaryState extends State<Dictionary> {
                     mainAxisAlignment: MainAxisAlignment.spaceAround,
                     children: [
                       FromToButton(
-                        from: 'ENG',
-                        to: 'FIN',
-                        fromColor: kBlue,
-                        toColor: kOrange,
-                      ),
-                      FromToButton(
                         from: 'FIN',
                         to: 'ENG',
+                        fromColor: kBlue,
+                        toColor: kOrange,
+                        onTap: () => context.bloc<DictionaryBloc>().add(
+                              DictionaryLanguageSearchUpdated(
+                                language: Language.fin,
+                              ),
+                            ),
+                        language: state.language,
+                        buttonLanguage: Language.fin,
+                      ),
+                      FromToButton(
+                        from: 'ENG',
+                        to: 'FIN',
                         fromColor: kOrange,
                         toColor: kBlue,
+                        onTap: () => context.bloc<DictionaryBloc>().add(
+                              DictionaryLanguageSearchUpdated(
+                                  language: Language.eng),
+                            ),
+                        language: state.language,
+                        buttonLanguage: Language.eng,
                       ),
                     ],
                   ),
@@ -135,9 +157,6 @@ class _DictionaryState extends State<Dictionary> {
                 Stack(
                   overflow: Overflow.visible,
                   children: [
-                    // TableBackground(
-                    //     blockSizeHorizontal: blockSizeHorizontal,
-                    //     blockSizeVertical: blockSizeVertical),
                     Container(
                       width: blockSizeHorizontal * 90,
                       height: blockSizeVertical * 59,
@@ -177,18 +196,31 @@ class _DictionaryState extends State<Dictionary> {
                                                       left:
                                                           blockSizeHorizontal *
                                                               3),
-                                                  child: Text(
-                                                    word.finnish,
-                                                    style: TextStyle(
-                                                        fontSize: 16,
-                                                        fontWeight:
-                                                            FontWeight.w600,
-                                                        color:
-                                                            Color(0xFF8A8A8A)),
-                                                    overflow:
-                                                        TextOverflow.ellipsis,
-                                                    maxLines: 2,
-                                                  ),
+                                                  child: state.language ==
+                                                          Language.fin
+                                                      ? HighlightText(
+                                                          text: word.finnish,
+                                                          highlight:
+                                                              state.search,
+                                                          highlightColor: kRed,
+                                                          style: TextStyle(
+                                                              fontSize: 16,
+                                                              fontWeight:
+                                                                  FontWeight
+                                                                      .w600,
+                                                              color: Color(
+                                                                  0xFF8A8A8A)),
+                                                        )
+                                                      : Text(
+                                                          word.finnish,
+                                                          style: TextStyle(
+                                                              fontSize: 16,
+                                                              fontWeight:
+                                                                  FontWeight
+                                                                      .w600,
+                                                              color: Color(
+                                                                  0xFF8A8A8A)),
+                                                        ),
                                                 ),
                                               ),
                                               Container(
@@ -207,15 +239,31 @@ class _DictionaryState extends State<Dictionary> {
                                                       left:
                                                           blockSizeHorizontal *
                                                               3),
-                                                  child: Text(
-                                                    word.english,
-                                                    style: TextStyle(
-                                                      color: Color(0xFFB9B9B9),
-                                                    ),
-                                                    overflow:
-                                                        TextOverflow.ellipsis,
-                                                    maxLines: 2,
-                                                  ),
+                                                  child: state.language ==
+                                                          Language.eng
+                                                      ? HighlightText(
+                                                          text: word.english,
+                                                          highlight:
+                                                              state.search,
+                                                          highlightColor: kRed,
+                                                          style: TextStyle(
+                                                              fontSize: 16,
+                                                              fontWeight:
+                                                                  FontWeight
+                                                                      .w600,
+                                                              color: Color(
+                                                                  0xFF8A8A8A)),
+                                                        )
+                                                      : Text(
+                                                          word.english,
+                                                          style: TextStyle(
+                                                            fontSize: 16,
+                                                            fontWeight:
+                                                                FontWeight.w600,
+                                                            color: Color(
+                                                                0xFF8A8A8A),
+                                                          ),
+                                                        ),
                                                 ),
                                               ),
                                             ],
@@ -235,41 +283,6 @@ class _DictionaryState extends State<Dictionary> {
           ),
         );
       },
-    );
-  }
-}
-
-class FromToButton extends StatelessWidget {
-  final String from;
-  final String to;
-  final Color fromColor;
-  final toColor;
-  const FromToButton({
-    this.from,
-    this.to,
-    this.fromColor,
-    this.toColor,
-  });
-
-  @override
-  Widget build(BuildContext context) {
-    return RaisedButton(
-      elevation: 4,
-      shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(10)),
-      padding: EdgeInsets.symmetric(vertical: 15),
-      color: Theme.of(context).primaryColor,
-      onPressed: () {},
-      child: Row(
-        children: [
-          Text(from, style: TextStyle(color: fromColor)),
-          Icon(
-            Icons.keyboard_arrow_right,
-            size: 12,
-            color: Colors.grey,
-          ),
-          Text(to, style: TextStyle(color: toColor)),
-        ],
-      ),
     );
   }
 }

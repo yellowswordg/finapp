@@ -25,3 +25,13 @@ class DictionarySearchUpdated extends DictionaryEvent {
   String toString() => 'DictionarySearchUpdated { search: $search }';
   List<Object> get props => [search];
 }
+
+class DictionaryLanguageSearchUpdated extends DictionaryEvent {
+  final Language language;
+
+  DictionaryLanguageSearchUpdated({this.language});
+
+  @override
+  String toString() => 'DictionaryLanguageSearchUpdated { search: $language }';
+  List<Object> get props => [language];
+}
