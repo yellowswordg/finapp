@@ -64,11 +64,11 @@ class _DictionaryState extends State<Dictionary> {
                 items: [
                   DropdownMenuItem(
                     value: Languages.english,
-                    child: Text('english'),
+                    child: Text(languages[Languages.english].flag),
                   ),
                   DropdownMenuItem(
                     value: Languages.russian,
-                    child: Text('russian'),
+                    child: Text(languages[Languages.russian].flag),
                   )
                 ],
                 onChanged: (value) {
