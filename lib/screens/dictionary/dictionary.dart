@@ -189,6 +189,7 @@ class _DictionaryState extends State<Dictionary> {
                               itemCount: state.wordList.length,
                               itemBuilder: (BuildContext context, int index) {
                                 Word word = state.wordList[index];
+                                print(word);
                                 return Padding(
                                   padding: EdgeInsets.symmetric(
                                       vertical:
@@ -282,7 +283,11 @@ class _DictionaryState extends State<Dictionary> {
                                                                   0xFF8A8A8A)),
                                                         )
                                                       : Text(
-                                                          word.english,
+                                                          state.translation ==
+                                                                  Languages
+                                                                      .english
+                                                              ? word.english
+                                                              : word.russian,
                                                           style: TextStyle(
                                                             fontSize: 16,
                                                             fontWeight:

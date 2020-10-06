@@ -11,7 +11,7 @@ class DictRepository {
         await db.rawQuery("SELECT * FROM data WHERE $language LIKE '$search%'");
 
     List<Word> words = data.map((word) {
-      return Word.fromEntity(WordEntity.fromDb(word));
+      return Word.fromEntity(WordEntity.fromDb(word, language));
     }).toList();
 
     return words;

@@ -4,12 +4,14 @@ import 'package:finapp/entities/word_entity.dart';
 class Word extends Equatable {
   final int id;
   final String finnish;
+  final String translation;
   final String english;
   final String russian;
   final int chapter;
   Word({
     this.id,
     this.finnish,
+    this.translation,
     this.english,
     this.russian,
     this.chapter,
@@ -23,15 +25,18 @@ class Word extends Equatable {
   String toString() => '''Note {
     id: $id,
     finnish: $finnish,
+    translation: $translation,
     english: $english,
     russian: $russian,
     chapter: $chapter
+
   }''';
 
   factory Word.fromEntity(WordEntity entity) {
     return Word(
       id: entity.id,
       finnish: entity.finnish,
+      translation: entity.translation,
       english: entity.english,
       russian: entity.russian,
       chapter: entity.chapter,
@@ -39,8 +44,8 @@ class Word extends Equatable {
   }
   Word copyWith({
     String id,
-    String title,
-    String language,
+    String finnish,
+    String translation,
     bool isEditingBtns,
   }) {
     return Word(
