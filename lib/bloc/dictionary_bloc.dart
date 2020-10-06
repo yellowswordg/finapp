@@ -1,9 +1,9 @@
 import 'dart:async';
-import 'dart:math';
 
 import 'package:bloc/bloc.dart';
 import 'package:equatable/equatable.dart';
-import 'package:finapp/models/language.dart';
+import 'package:finapp/models/data.dart';
+import 'package:finapp/models/languages.dart';
 import 'package:finapp/models/word.dart';
 import 'package:finapp/repositories/dict/dict_repository.dart';
 import 'package:meta/meta.dart';
@@ -28,21 +28,21 @@ class DictionaryBloc extends Bloc<DictionaryEvent, DictionaryState> {
 
   Stream<DictionaryState> _mapDictionarySearchUpdatedToState(
       DictionarySearchUpdated event) async* {
-    
     final search = event.search;
     try {
-      if (state.language == Language.finnish) {
+      // this if operator disides whethere button chosen finnish or other language
+      if (state.language == Languages.finnish) {
         List<Word> wordList = await repository.findInlanguage(
             search: search, language: 'finnish');
         yield state.update(
-            wordList: wordList, search: search, language: Language.finnish);
+            wordList: wordList, search: search, language: Languages.finnish);
       } else {
         List<Word> wordList = await repository.findInlanguage(
-            search: search, language: languagePairs[state.translation][1]);
+            search: search, language: languages[state.translation].language);
         yield state.update(
           wordList: wordList,
           search: search,
-          language: Language.english,
+          language: Languages.english,
         );
       }
     } catch (e) {

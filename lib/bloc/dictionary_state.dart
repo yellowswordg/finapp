@@ -8,8 +8,8 @@ class DictionaryState {
   final bool isSuccess;
   final bool isFailure;
   final String errorMessage;
-  final Language language;
-  final Language translation;
+  final Languages language;
+  final Languages translation;
 
   DictionaryState({
     this.search,
@@ -30,8 +30,8 @@ class DictionaryState {
       isSuccess: false,
       isFailure: false,
       errorMessage: '',
-      language: Language.finnish,
-      translation: Language.english,
+      language: Languages.finnish,
+      translation: Languages.english,
     );
   }
   factory DictionaryState.submitting(
@@ -43,7 +43,7 @@ class DictionaryState {
       isSuccess: false,
       isFailure: false,
       errorMessage: '',
-      translation: Language.english,
+      translation: Languages.english,
     );
   }
   factory DictionaryState.success({@required List<Word> wordList}) {
@@ -54,7 +54,7 @@ class DictionaryState {
       isSuccess: true,
       isFailure: false,
       errorMessage: '',
-      translation: Language.english,
+      translation: Languages.english,
     );
   }
   factory DictionaryState.failure(
@@ -67,7 +67,7 @@ class DictionaryState {
       isSuccess: false,
       isFailure: true,
       errorMessage: errorMessage,
-      translation: Language.english,
+      translation: Languages.english,
     );
   }
   DictionaryState update({
@@ -77,8 +77,8 @@ class DictionaryState {
     bool isSuccess,
     bool isFailure,
     String errorMessage,
-    Language language,
-    Language translation,
+    Languages language,
+    Languages translation,
   }) {
     // print(search);
     return copyWith(
@@ -100,8 +100,8 @@ class DictionaryState {
     bool isSuccess,
     bool isFailure,
     String errorMessage,
-    Language language,
-    Language translation,
+    Languages language,
+    Languages translation,
   }) {
     return DictionaryState(
         wordList: wordList ?? this.wordList,

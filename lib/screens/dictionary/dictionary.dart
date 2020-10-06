@@ -1,5 +1,5 @@
 import 'package:finapp/bloc/dictionary_bloc.dart';
-import 'package:finapp/models/language.dart';
+import 'package:finapp/models/languages.dart';
 import 'package:finapp/models/word.dart';
 import 'package:finapp/size_config.dart';
 import 'package:finapp/utils/constatnts.dart';
@@ -62,11 +62,11 @@ class _DictionaryState extends State<Dictionary> {
               DropdownButton(
                 items: [
                   DropdownMenuItem(
-                    value: Language.english,
+                    value: Languages.english,
                     child: Text('english'),
                   ),
                   DropdownMenuItem(
-                    value: Language.russian,
+                    value: Languages.russian,
                     child: Text('russian'),
                   )
                 ],
@@ -99,11 +99,11 @@ class _DictionaryState extends State<Dictionary> {
                         toColor: kOrange,
                         onTap: () => context.bloc<DictionaryBloc>().add(
                               DictionaryLanguageSearchUpdated(
-                                language: Language.finnish,
+                                language: Languages.finnish,
                               ),
                             ),
                         language: state.language,
-                        buttonLanguage: Language.finnish,
+                        buttonLanguage: Languages.finnish,
                       ),
                       FromToButton(
                         from: 'ENG',
@@ -112,10 +112,10 @@ class _DictionaryState extends State<Dictionary> {
                         toColor: kBlue,
                         onTap: () => context.bloc<DictionaryBloc>().add(
                               DictionaryLanguageSearchUpdated(
-                                  language: Language.english),
+                                  language: Languages.english),
                             ),
                         language: state.language,
-                        buttonLanguage: Language.english,
+                        buttonLanguage: Languages.english,
                       ),
                     ],
                   ),
@@ -220,7 +220,7 @@ class _DictionaryState extends State<Dictionary> {
                                                           blockSizeHorizontal *
                                                               3),
                                                   child: state.language ==
-                                                          Language.finnish
+                                                          Languages.finnish
                                                       ? HighlightText(
                                                           text: word.finnish,
                                                           highlight:
@@ -263,9 +263,9 @@ class _DictionaryState extends State<Dictionary> {
                                                           blockSizeHorizontal *
                                                               3),
                                                   child: state.language ==
-                                                          Language.english
+                                                          Languages.english
                                                       ? HighlightText(
-                                                          text: state.translation == Language.english ? word.english  : word.russian,
+                                                          text: state.translation == Languages.english ? word.english  : word.russian,
                                                           highlight:
                                                               state.search,
                                                           highlightColor: kRed,

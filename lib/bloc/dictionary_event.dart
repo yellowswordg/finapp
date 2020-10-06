@@ -27,7 +27,7 @@ class DictionarySearchUpdated extends DictionaryEvent {
 }
 
 class DictionaryLanguageSearchUpdated extends DictionaryEvent {
-  final Language language;
+  final Languages language;
 
   DictionaryLanguageSearchUpdated({this.language});
 
@@ -37,7 +37,7 @@ class DictionaryLanguageSearchUpdated extends DictionaryEvent {
 }
 
 class DictionaryTranslationUpdated extends DictionaryEvent {
-  final Language translation;
+  final Languages translation;
 
   DictionaryTranslationUpdated({this.translation});
 

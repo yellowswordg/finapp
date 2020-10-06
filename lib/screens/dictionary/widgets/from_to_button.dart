@@ -1,4 +1,4 @@
-import 'package:finapp/models/language.dart';
+import 'package:finapp/models/languages.dart';
 import 'package:flutter/material.dart';
 
 class FromToButton extends StatelessWidget {
@@ -7,8 +7,8 @@ class FromToButton extends StatelessWidget {
   final Color fromColor;
   final Color toColor;
   final Function onTap;
-  final Language language;
-  final Language buttonLanguage;
+  final Languages language;
+  final Languages buttonLanguage;
   const FromToButton({
     this.from,
     this.to,
