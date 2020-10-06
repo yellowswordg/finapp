@@ -33,7 +33,7 @@ class DictionaryBloc extends Bloc<DictionaryEvent, DictionaryState> {
       // this if operator disides whethere button chosen finnish or other language
       if (state.language == Languages.finnish) {
         List<Word> wordList = await repository.findInlanguage(
-            search: search, language: 'finnish');
+            search: search, language: languages[state.language].language);
         yield state.update(
             wordList: wordList, search: search, language: Languages.finnish);
       } else {
