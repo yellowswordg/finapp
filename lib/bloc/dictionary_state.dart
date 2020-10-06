@@ -9,25 +9,30 @@ class DictionaryState {
   final bool isFailure;
   final String errorMessage;
   final Language language;
+  final Language translation;
 
-  DictionaryState(
-      {this.search,
-      this.wordList,
-      this.isSubmiting,
-      this.isSuccess,
-      this.isFailure,
-      this.errorMessage,
-      this.language});
+  DictionaryState({
+    this.search,
+    this.wordList,
+    this.isSubmiting,
+    this.isSuccess,
+    this.isFailure,
+    this.errorMessage,
+    this.language,
+    this.translation,
+  });
 
   factory DictionaryState.empty() {
     return DictionaryState(
-        wordList: null,
-        search: '',
-        isSubmiting: false,
-        isSuccess: false,
-        isFailure: false,
-        errorMessage: '',
-        language: Language.fin);
+      wordList: null,
+      search: '',
+      isSubmiting: false,
+      isSuccess: false,
+      isFailure: false,
+      errorMessage: '',
+      language: Language.finnish,
+      translation: Language.english,
+    );
   }
   factory DictionaryState.submitting(
       {@required List<Word> wordList, String search}) {
@@ -38,6 +43,7 @@ class DictionaryState {
       isSuccess: false,
       isFailure: false,
       errorMessage: '',
+      translation: Language.english,
     );
   }
   factory DictionaryState.success({@required List<Word> wordList}) {
@@ -48,6 +54,7 @@ class DictionaryState {
       isSuccess: true,
       isFailure: false,
       errorMessage: '',
+      translation: Language.english,
     );
   }
   factory DictionaryState.failure(
@@ -60,25 +67,30 @@ class DictionaryState {
       isSuccess: false,
       isFailure: true,
       errorMessage: errorMessage,
+      translation: Language.english,
     );
   }
-  DictionaryState update(
-      {List<Word> wordList,
-      String search,
-      bool isSubmiting,
-      bool isSuccess,
-      bool isFailure,
-      String errorMessage,
-      Language language}) {
+  DictionaryState update({
+    List<Word> wordList,
+    String search,
+    bool isSubmiting,
+    bool isSuccess,
+    bool isFailure,
+    String errorMessage,
+    Language language,
+    Language translation,
+  }) {
     // print(search);
     return copyWith(
-        wordList: wordList,
-        search: search,
-        isSubmiting: isSubmiting,
-        isSuccess: isSuccess,
-        isFailure: isFailure,
-        errorMessage: errorMessage,
-        language: language);
+      wordList: wordList,
+      search: search,
+      isSubmiting: isSubmiting,
+      isSuccess: isSuccess,
+      isFailure: isFailure,
+      errorMessage: errorMessage,
+      language: language,
+      translation: translation,
+    );
   }
 
   DictionaryState copyWith({
@@ -89,16 +101,17 @@ class DictionaryState {
     bool isFailure,
     String errorMessage,
     Language language,
+    Language translation,
   }) {
     return DictionaryState(
-      wordList: wordList ?? this.wordList,
-      search: search ?? this.search,
-      isSubmiting: isSubmiting ?? this.isSubmiting,
-      isSuccess: isSuccess ?? this.isSuccess,
-      isFailure: isFailure ?? this.isFailure,
-      errorMessage: errorMessage ?? this.errorMessage,
-      language: language ?? language,
-    );
+        wordList: wordList ?? this.wordList,
+        search: search ?? this.search,
+        isSubmiting: isSubmiting ?? this.isSubmiting,
+        isSuccess: isSuccess ?? this.isSuccess,
+        isFailure: isFailure ?? this.isFailure,
+        errorMessage: errorMessage ?? this.errorMessage,
+        language: language ?? this.language,
+        translation: translation ?? this.translation);
   }
 
   String toString() => '''DictionaryState {
@@ -107,6 +120,7 @@ class DictionaryState {
       isSubmiting: $isSubmiting,
       isSuccess: $isSuccess,
       isFailure: $isFailure,
-      errorMessage: $errorMessage
+      errorMessage: $errorMessage,
+      translation: $translation
   } ''';
 }

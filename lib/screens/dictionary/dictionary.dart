@@ -8,7 +8,7 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
 import '../../bloc/dictionary_bloc.dart';
-import '../../bloc/dictionary_bloc.dart';
+
 import '../../utils/constatnts.dart';
 
 import 'widgets/from_to_button.dart';
@@ -58,6 +58,29 @@ class _DictionaryState extends State<Dictionary> {
               size: 30,
               color: kRed.withOpacity(0.7),
             ),
+            actions: [
+              DropdownButton(
+                items: [
+                  DropdownMenuItem(
+                    value: Language.english,
+                    child: Text('english'),
+                  ),
+                  DropdownMenuItem(
+                    value: Language.russian,
+                    child: Text('russian'),
+                  )
+                ],
+                onChanged: (value) {
+                  context
+                      .bloc<DictionaryBloc>()
+                      .add(DictionaryTranslationUpdated(translation: value));
+                  
+                },
+              ),
+              SizedBox(
+                width: 10,
+              )
+            ],
             elevation: 0,
           ),
           body: SingleChildScrollView(
@@ -76,11 +99,11 @@ class _DictionaryState extends State<Dictionary> {
                         toColor: kOrange,
                         onTap: () => context.bloc<DictionaryBloc>().add(
                               DictionaryLanguageSearchUpdated(
-                                language: Language.fin,
+                                language: Language.finnish,
                               ),
                             ),
                         language: state.language,
-                        buttonLanguage: Language.fin,
+                        buttonLanguage: Language.finnish,
                       ),
                       FromToButton(
                         from: 'ENG',
@@ -89,10 +112,10 @@ class _DictionaryState extends State<Dictionary> {
                         toColor: kBlue,
                         onTap: () => context.bloc<DictionaryBloc>().add(
                               DictionaryLanguageSearchUpdated(
-                                  language: Language.eng),
+                                  language: Language.english),
                             ),
                         language: state.language,
-                        buttonLanguage: Language.eng,
+                        buttonLanguage: Language.english,
                       ),
                     ],
                   ),
@@ -197,7 +220,7 @@ class _DictionaryState extends State<Dictionary> {
                                                           blockSizeHorizontal *
                                                               3),
                                                   child: state.language ==
-                                                          Language.fin
+                                                          Language.finnish
                                                       ? HighlightText(
                                                           text: word.finnish,
                                                           highlight:
@@ -214,12 +237,12 @@ class _DictionaryState extends State<Dictionary> {
                                                       : Text(
                                                           word.finnish,
                                                           style: TextStyle(
-                                                              fontSize: 16,
-                                                              fontWeight:
-                                                                  FontWeight
-                                                                      .w600,
-                                                              color: Color(
-                                                                  0xFF8A8A8A)),
+                                                            fontSize: 16,
+                                                            fontWeight:
+                                                                FontWeight.w600,
+                                                            color: Color(
+                                                                0xFF8A8A8A),
+                                                          ),
                                                         ),
                                                 ),
                                               ),
@@ -240,9 +263,9 @@ class _DictionaryState extends State<Dictionary> {
                                                           blockSizeHorizontal *
                                                               3),
                                                   child: state.language ==
-                                                          Language.eng
+                                                          Language.english
                                                       ? HighlightText(
-                                                          text: word.english,
+                                                          text: state.translation == Language.english ? word.english  : word.russian,
                                                           highlight:
                                                               state.search,
                                                           highlightColor: kRed,

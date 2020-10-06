@@ -21,25 +21,28 @@ class DictionaryBloc extends Bloc<DictionaryEvent, DictionaryState> {
       yield* _mapDictionarySearchUpdatedToState(event);
     } else if (event is DictionaryLanguageSearchUpdated) {
       yield* _mapDictionaryLanguageSearchUpdatedToState(event);
+    } else if (event is DictionaryTranslationUpdated) {
+      yield* __mapDictionaryTranslationUpdatedToState(event);
     }
   }
 
   Stream<DictionaryState> _mapDictionarySearchUpdatedToState(
       DictionarySearchUpdated event) async* {
+    
     final search = event.search;
     try {
-      if (state.language == Language.fin) {
+      if (state.language == Language.finnish) {
         List<Word> wordList = await repository.findInlanguage(
             search: search, language: 'finnish');
         yield state.update(
-            wordList: wordList, search: search, language: Language.fin);
+            wordList: wordList, search: search, language: Language.finnish);
       } else {
         List<Word> wordList = await repository.findInlanguage(
-            search: search, language: 'english');
+            search: search, language: languagePairs[state.translation][1]);
         yield state.update(
           wordList: wordList,
           search: search,
-          language: Language.eng,
+          language: Language.english,
         );
       }
     } catch (e) {
@@ -50,7 +53,12 @@ class DictionaryBloc extends Bloc<DictionaryEvent, DictionaryState> {
 
   Stream<DictionaryState> _mapDictionaryLanguageSearchUpdatedToState(
       DictionaryLanguageSearchUpdated event) async* {
-    // print(event.language);
     yield state.update(language: event.language);
+  }
+
+  Stream<DictionaryState> __mapDictionaryTranslationUpdatedToState(
+      DictionaryTranslationUpdated event) async* {
+    print(event.translation);
+    yield state.update(translation: event.translation);
   }
 }

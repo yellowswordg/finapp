@@ -16,7 +16,7 @@ class DBHelper {
     final exists = await databaseExists(path);
 
     if (!exists) {
-      print("Creating new copy from asset");
+      // print("Creating new copy from asset");
 
       try {
         await Directory(dirname(path)).create(recursive: true);
@@ -27,7 +27,7 @@ class DBHelper {
           data.buffer.asUint8List(data.offsetInBytes, data.lengthInBytes);
       await File(path).writeAsBytes(bytes, flush: true);
     } else {
-      print('opening existing one');
+      // print('opening existing one');
     }
 
     return await openDatabase(
