@@ -1,4 +1,5 @@
 import 'package:finapp/bloc/dictionary_bloc.dart';
+import 'package:finapp/models/data.dart';
 import 'package:finapp/models/languages.dart';
 import 'package:finapp/models/word.dart';
 import 'package:finapp/size_config.dart';
@@ -74,7 +75,6 @@ class _DictionaryState extends State<Dictionary> {
                   context
                       .bloc<DictionaryBloc>()
                       .add(DictionaryTranslationUpdated(translation: value));
-                  
                 },
               ),
               SizedBox(
@@ -94,7 +94,7 @@ class _DictionaryState extends State<Dictionary> {
                     children: [
                       FromToButton(
                         from: 'FIN',
-                        to: 'ENG',
+                        to: languages[state.translation].shortName,
                         fromColor: kBlue,
                         toColor: kOrange,
                         onTap: () => context.bloc<DictionaryBloc>().add(
@@ -106,7 +106,7 @@ class _DictionaryState extends State<Dictionary> {
                         buttonLanguage: Languages.finnish,
                       ),
                       FromToButton(
-                        from: 'ENG',
+                        from: languages[state.translation].shortName,
                         to: 'FIN',
                         fromColor: kOrange,
                         toColor: kBlue,
@@ -265,7 +265,11 @@ class _DictionaryState extends State<Dictionary> {
                                                   child: state.language ==
                                                           Languages.english
                                                       ? HighlightText(
-                                                          text: state.translation == Languages.english ? word.english  : word.russian,
+                                                          text: state.translation ==
+                                                                  Languages
+                                                                      .english
+                                                              ? word.english
+                                                              : word.russian,
                                                           highlight:
                                                               state.search,
                                                           highlightColor: kRed,
