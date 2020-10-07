@@ -8,4 +8,6 @@ const Map<Languages, Language> languages = {
       Language(language: 'russian', shortName: 'RUS', flag: '🇷🇺'),
   Languages.finnish:
       Language(language: 'finnish', shortName: 'FIN', flag: '🇫🇮'),
+  Languages.german: Language(language: 'german', shortName: 'DE', flag: '🇩🇪'),
+  Languages.french: Language(language: 'french', shortName: 'FR', flag: '🇫🇷'),
 };

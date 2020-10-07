@@ -61,6 +61,7 @@ class _DictionaryState extends State<Dictionary> {
             ),
             actions: [
               DropdownButton(
+                hint: Text('${languages[state.translation].flag}'),
                 items: [
                   DropdownMenuItem(
                     value: Languages.english,
@@ -69,6 +70,14 @@ class _DictionaryState extends State<Dictionary> {
                   DropdownMenuItem(
                     value: Languages.russian,
                     child: Text(languages[Languages.russian].flag),
+                  ),
+                  DropdownMenuItem(
+                    value: Languages.german,
+                    child: Text(languages[Languages.german].flag),
+                  ),
+                  DropdownMenuItem(
+                    value: Languages.french,
+                    child: Text(languages[Languages.french].flag),
                   )
                 ],
                 onChanged: (value) {
@@ -266,11 +275,8 @@ class _DictionaryState extends State<Dictionary> {
                                                   child: state.language ==
                                                           Languages.english
                                                       ? HighlightText(
-                                                          text: state.translation ==
-                                                                  Languages
-                                                                      .english
-                                                              ? word.english
-                                                              : word.russian,
+                                                          text:
+                                                              word.translation,
                                                           highlight:
                                                               state.search,
                                                           highlightColor: kRed,
@@ -283,11 +289,7 @@ class _DictionaryState extends State<Dictionary> {
                                                                   0xFF8A8A8A)),
                                                         )
                                                       : Text(
-                                                          state.translation ==
-                                                                  Languages
-                                                                      .english
-                                                              ? word.english
-                                                              : word.russian,
+                                                          word.translation,
                                                           style: TextStyle(
                                                             fontSize: 16,
                                                             fontWeight:

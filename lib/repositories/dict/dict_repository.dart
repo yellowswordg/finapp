@@ -4,14 +4,15 @@ import 'package:finapp/models/word.dart';
 import 'package:finapp/utils/db_helper.dart';
 
 class DictRepository {
-  Future<List<Word>> findInlanguage({String search, String language}) async {
-    print("from repo ${language}");
+  Future<List<Word>> findInlanguage(
+      {String search, String language, String translation}) async {
+    // print("from repo translation:  ${translation} \n language:  ${language}");
     final db = await DBHelper.database();
     List<Map> data =
         await db.rawQuery("SELECT * FROM data WHERE $language LIKE '$search%'");
 
     List<Word> words = data.map((word) {
-      return Word.fromEntity(WordEntity.fromDb(word, language));
+      return Word.fromEntity(WordEntity.fromDb(word, translation));
     }).toList();
 
     return words;
