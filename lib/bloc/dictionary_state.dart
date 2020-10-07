@@ -35,10 +35,10 @@ class DictionaryState {
     );
   }
   factory DictionaryState.submitting(
-      {@required List<Word> wordList, String search}) {
+      {@required List<Word> wordList, Languages translation}) {
     return DictionaryState(
       wordList: wordList,
-      search: search,
+      search: '',
       isSubmiting: true,
       isSuccess: false,
       isFailure: false,
@@ -124,3 +124,41 @@ class DictionaryState {
       translation: $translation
   } ''';
 }
+
+// side == 'front'
+//                       ? HighlightText(
+//                           text: word.example ?? '...',
+//                           highlight: word.targetLang,
+//                           highlightColor: Colors.red,
+//                           style: Theme.of(context)
+//                               .primaryTextTheme
+//                               .bodyText2
+//                               .merge(
+//                                 TextStyle(fontSize: defaultSize * 2),
+//                               ),
+//                         )
+//                       // Text(word.example ?? '...',
+//                       //     style: Theme.of(context)
+//                       //         .primaryTextTheme
+//                       //         .bodyText2
+//                       //         .merge(TextStyle(fontSize: defaultSize * 2)))
+//                       : HighlightText(
+//                           text: word.exampleTranslations ?? '...',
+//                           highlight: word.ownLang,
+//                           highlightColor: Colors.red,
+//                           style: Theme.of(context)
+//                               .primaryTextTheme
+//                               .bodyText2
+//                               .merge(
+//                                 TextStyle(fontSize: defaultSize * 2),
+//                               ),
+//                         )
+//                   // Text(
+//                   //     word.exampleTranslations ?? '...',
+//                   //     style: Theme.of(context)
+//                   //         .primaryTextTheme
+//                   //         .bodyText2
+//                   //         .merge(
+//                   //           TextStyle(fontSize: defaultSize * 2),
+//                   //         ),
+//                   //   )
