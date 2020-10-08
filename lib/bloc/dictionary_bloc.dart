@@ -58,13 +58,12 @@ class DictionaryBloc extends Bloc<DictionaryEvent, DictionaryState> {
 
   Stream<DictionaryState> _mapDictionaryLanguageSearchUpdatedToState(
       DictionaryLanguageSearchUpdated event) async* {
-    yield DictionaryState.submitting(wordList: [], );
-    yield state.update(language: event.language);
+    yield state.update(language: event.language, wordList: []);
   }
 
   Stream<DictionaryState> __mapDictionaryTranslationUpdatedToState(
       DictionaryTranslationUpdated event) async* {
     // print(event.translation);
-    yield state.update(translation: event.translation);
+    yield state.update(translation: event.translation, );
   }
 }
