@@ -8,8 +8,8 @@ class DictRepository {
       {String search, String language, String translation}) async {
     // print("from repo translation:  ${translation} \n language:  ${language}");
     final db = await DBHelper.database();
-    List<Map> data =
-        await db.rawQuery("SELECT * FROM data WHERE $language LIKE '$search%'");
+    List<Map> data = await db
+        .rawQuery("SELECT * FROM data WHERE $language LIKE '%$search%'");
 
     List<Word> words = data.map((word) {
       return Word.fromEntity(WordEntity.fromDb(word, translation));

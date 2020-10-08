@@ -26,7 +26,12 @@ class _DictionaryState extends State<Dictionary> {
     SizeConfig().init(context);
     double blockSizeVertical = SizeConfig.blockSizeVertical;
     double blockSizeHorizontal = SizeConfig.blockSizeHorizontal;
-
+    List<Languages> languagePicker = [
+      Languages.english,
+      Languages.french,
+      Languages.german,
+      Languages.russian
+    ];
     // double defaultSize = SizeConfig.defaultSize;
     return BlocConsumer<DictionaryBloc, DictionaryState>(
       listener: (context, state) {
@@ -63,22 +68,13 @@ class _DictionaryState extends State<Dictionary> {
               DropdownButton(
                 hint: Text('${languages[state.translation].flag}'),
                 items: [
-                  DropdownMenuItem(
-                    value: Languages.english,
-                    child: Text(languages[Languages.english].flag),
+                  ...List.generate(
+                    languagePicker.length,
+                    (index) => DropdownMenuItem(
+                      value: languagePicker[index],
+                      child: Text(languages[languagePicker[index]].flag),
+                    ),
                   ),
-                  DropdownMenuItem(
-                    value: Languages.russian,
-                    child: Text(languages[Languages.russian].flag),
-                  ),
-                  DropdownMenuItem(
-                    value: Languages.german,
-                    child: Text(languages[Languages.german].flag),
-                  ),
-                  DropdownMenuItem(
-                    value: Languages.french,
-                    child: Text(languages[Languages.french].flag),
-                  )
                 ],
                 onChanged: (value) {
                   context
@@ -102,8 +98,7 @@ class _DictionaryState extends State<Dictionary> {
                     mainAxisAlignment: MainAxisAlignment.spaceAround,
                     children: [
                       FromToButton(
-                        from: 'FIN',
-                        to: languages[state.translation].shortName,
+                        label: '🇫🇮   FIN ',
                         fromColor: kBlue,
                         toColor: kOrange,
                         onTap: () => context.bloc<DictionaryBloc>().add(
@@ -115,8 +110,8 @@ class _DictionaryState extends State<Dictionary> {
                         buttonLanguage: Languages.finnish,
                       ),
                       FromToButton(
-                        from: languages[state.translation].shortName,
-                        to: 'FIN',
+                        label:
+                            '${languages[state.translation].flag}  ${languages[state.translation].shortName}',
                         fromColor: kOrange,
                         toColor: kBlue,
                         onTap: () => context.bloc<DictionaryBloc>().add(
@@ -157,27 +152,6 @@ class _DictionaryState extends State<Dictionary> {
                           onChanged: (value) => context
                               .bloc<DictionaryBloc>()
                               .add(DictionarySearchUpdated(value)),
-                        ),
-                      ),
-                      SizedBox(
-                        width: 10,
-                      ),
-                      RaisedButton(
-                        elevation: 4,
-                        shape: RoundedRectangleBorder(
-                            borderRadius: BorderRadius.circular(10)),
-                        padding: EdgeInsets.symmetric(vertical: 15),
-                        color: Theme.of(context).primaryColor,
-                        onPressed: () => context
-                            .bloc<DictionaryBloc>()
-                            .add(DictionaryUpdated()),
-                        child: Text(
-                          'SEARCH',
-                          style: TextStyle(
-                            color: kRed,
-                            fontSize: 12,
-                            fontWeight: FontWeight.bold,
-                          ),
                         ),
                       ),
                     ],

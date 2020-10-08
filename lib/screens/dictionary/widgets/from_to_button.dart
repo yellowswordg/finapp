@@ -2,16 +2,15 @@ import 'package:finapp/models/languages.dart';
 import 'package:flutter/material.dart';
 
 class FromToButton extends StatelessWidget {
-  final String from;
-  final String to;
+  final String label;
+
   final Color fromColor;
   final Color toColor;
   final Function onTap;
   final Languages language;
   final Languages buttonLanguage;
   const FromToButton({
-    this.from,
-    this.to,
+    this.label,
     this.fromColor,
     this.toColor,
     this.onTap,
@@ -29,13 +28,7 @@ class FromToButton extends StatelessWidget {
       onPressed: () => onTap(),
       child: Row(
         children: [
-          Text(from, style: TextStyle(color: fromColor)),
-          Icon(
-            Icons.keyboard_arrow_right,
-            size: 12,
-            color: Colors.grey,
-          ),
-          Text(to, style: TextStyle(color: toColor)),
+          Text(label, style: TextStyle(color: fromColor)),
         ],
       ),
     );
