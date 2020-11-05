@@ -1,3 +1,4 @@
+import 'package:auto_size_text/auto_size_text.dart';
 import 'package:flutter/material.dart';
 
 class HighlightText extends StatelessWidget {
@@ -43,7 +44,7 @@ class HighlightText extends StatelessWidget {
       }
     } while (true);
 
-    return Text.rich(TextSpan(children: spans));
+    return AutoSizeText.rich(TextSpan(children: spans));
   }
 
   TextSpan _highlightSpan(String content) {

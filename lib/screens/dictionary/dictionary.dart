@@ -12,6 +12,7 @@ import '../../bloc/dictionary_bloc.dart';
 
 import '../../utils/constatnts.dart';
 
+import 'widgets/dict_list.dart';
 import 'widgets/from_to_button.dart';
 import 'widgets/highlight_text.dart';
 
@@ -42,7 +43,7 @@ class _DictionaryState extends State<Dictionary> {
           TextPosition(offset: controller.text.length),
         );
         if (state.isFailure) {
-          showDialog(
+          return showDialog(
             context: context,
             builder: (context) {
               return AlertDialog(
@@ -57,7 +58,7 @@ class _DictionaryState extends State<Dictionary> {
               );
             },
           );
-        } else if (state.isSubmiting) {}
+        }
       },
       builder: (context, state) {
         // print(" scaffold : ${state.wordList?.length}");
@@ -133,14 +134,11 @@ class _DictionaryState extends State<Dictionary> {
                           toColor: kBlue,
                           onTap: () {
                             context.bloc<DictionaryBloc>().add(
-                                  DictionaryLanguageSearchUpdated(
-                                      language: Languages.english),
-                                );
+                                DictionaryLanguageSearchUpdated(
+                                    language: Languages.english));
                             context
                                 .bloc<DictionaryBloc>()
-                                .add(DictionarySearchUpdated(
-                                  '',
-                                ));
+                                .add(DictionarySearchUpdated(''));
                           },
                           language: state.language,
                           buttonLanguage: Languages.english,
@@ -159,11 +157,9 @@ class _DictionaryState extends State<Dictionary> {
                             decoration: InputDecoration(
                               suffixIcon: IconButton(
                                 onPressed: () {
-                                  context
-                                      .bloc<DictionaryBloc>()
-                                      .add(DictionarySearchUpdated(
-                                        '',
-                                      ));
+                                  context.bloc<DictionaryBloc>().add(
+                                        DictionarySearchUpdated(''),
+                                      );
                                 },
                                 icon: Icon(
                                   Icons.cancel,
@@ -171,7 +167,9 @@ class _DictionaryState extends State<Dictionary> {
                                 ),
                               ),
                               contentPadding: EdgeInsets.symmetric(
-                                  horizontal: 10, vertical: 0),
+                                horizontal: 10,
+                                vertical: 0,
+                              ),
                               fillColor: Theme.of(context).primaryColor,
                               filled: true,
                               hintText: 'Enter a word',
@@ -199,7 +197,6 @@ class _DictionaryState extends State<Dictionary> {
                     height: blockSizeVertical * 3,
                   ),
                   Stack(
-                    overflow: Overflow.visible,
                     children: [
                       Container(
                         width: blockSizeHorizontal * 90,
@@ -210,126 +207,11 @@ class _DictionaryState extends State<Dictionary> {
                                 itemCount: state.wordList.length,
                                 itemBuilder: (BuildContext context, int index) {
                                   Word word = state.wordList[index];
-                                  print(word);
-                                  return Padding(
-                                    padding: EdgeInsets.symmetric(
-                                        vertical:
-                                            SizeConfig.blockSizeVertical / 3.5),
-                                    child: Container(
-                                      decoration: BoxDecoration(
-                                        borderRadius: BorderRadius.circular(5),
-                                        color: Colors.white,
-                                      ),
-                                      child: Column(
-                                        children: [
-                                          Padding(
-                                            padding: EdgeInsets.only(
-                                                bottom: SizeConfig
-                                                        .blockSizeVertical /
-                                                    2.5),
-                                            child: Row(
-                                              mainAxisAlignment:
-                                                  MainAxisAlignment.center,
-                                              children: [
-                                                Container(
-                                                  alignment:
-                                                      Alignment.centerLeft,
-                                                  height: blockSizeVertical *
-                                                      55 /
-                                                      9,
-                                                  width:
-                                                      blockSizeHorizontal * 35,
-                                                  child: Padding(
-                                                    padding: EdgeInsets.only(
-                                                        left:
-                                                            blockSizeHorizontal *
-                                                                3),
-                                                    child: state.language ==
-                                                            Languages.finnish
-                                                        ? HighlightText(
-                                                            text: word.finnish,
-                                                            highlight:
-                                                                state.search,
-                                                            highlightColor:
-                                                                kRed,
-                                                            style: TextStyle(
-                                                                fontSize: 16,
-                                                                fontWeight:
-                                                                    FontWeight
-                                                                        .w600,
-                                                                color: Color(
-                                                                    0xFF8A8A8A)),
-                                                          )
-                                                        : Text(
-                                                            word.finnish,
-                                                            style: TextStyle(
-                                                              fontSize: 16,
-                                                              fontWeight:
-                                                                  FontWeight
-                                                                      .w600,
-                                                              color: Color(
-                                                                  0xFF8A8A8A),
-                                                            ),
-                                                          ),
-                                                  ),
-                                                ),
-                                                Container(
-                                                  height: blockSizeVertical *
-                                                      50 /
-                                                      9,
-                                                  width:
-                                                      blockSizeHorizontal / 2,
-                                                  color: kRed.withOpacity(0.4),
-                                                ),
-                                                Container(
-                                                  alignment:
-                                                      Alignment.centerLeft,
-                                                  height: blockSizeVertical *
-                                                      55 /
-                                                      9,
-                                                  width:
-                                                      blockSizeHorizontal * 53,
-                                                  child: Padding(
-                                                    padding: EdgeInsets.only(
-                                                        left:
-                                                            blockSizeHorizontal *
-                                                                3),
-                                                    child: state.language ==
-                                                            Languages.english
-                                                        ? HighlightText(
-                                                            text: word
-                                                                .translation,
-                                                            highlight:
-                                                                state.search,
-                                                            highlightColor:
-                                                                kRed,
-                                                            style: TextStyle(
-                                                                fontSize: 16,
-                                                                fontWeight:
-                                                                    FontWeight
-                                                                        .w600,
-                                                                color: Color(
-                                                                    0xFF8A8A8A)),
-                                                          )
-                                                        : Text(
-                                                            word.translation,
-                                                            style: TextStyle(
-                                                              fontSize: 16,
-                                                              fontWeight:
-                                                                  FontWeight
-                                                                      .w600,
-                                                              color: Color(
-                                                                  0xFF8A8A8A),
-                                                            ),
-                                                          ),
-                                                  ),
-                                                ),
-                                              ],
-                                            ),
-                                          ),
-                                        ],
-                                      ),
-                                    ),
+                                  return DictList(
+                                    blockSizeVertical: blockSizeVertical,
+                                    blockSizeHorizontal: blockSizeHorizontal,
+                                    word: word,
+                                    state: state,
                                   );
                                 },
                               ),
