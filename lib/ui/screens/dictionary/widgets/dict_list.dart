@@ -2,10 +2,12 @@ import 'package:auto_size_text/auto_size_text.dart';
 import 'package:finapp/bloc/dictionary_bloc.dart';
 import 'package:finapp/models/languages.dart';
 import 'package:finapp/models/word.dart';
-import 'package:finapp/screens/dictionary/widgets/highlight_text.dart';
 import 'package:finapp/size_config.dart';
+import 'package:finapp/ui/comon/themes/light_theme.dart';
 import 'package:finapp/utils/constatnts.dart';
 import 'package:flutter/material.dart';
+
+import 'highlight_text.dart';
 
 class DictList extends StatelessWidget {
   const DictList({

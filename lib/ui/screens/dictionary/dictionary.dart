@@ -3,20 +3,16 @@ import 'package:finapp/models/data.dart';
 import 'package:finapp/models/languages.dart';
 import 'package:finapp/models/word.dart';
 import 'package:finapp/size_config.dart';
-import 'package:finapp/utils/constatnts.dart';
+import 'package:finapp/ui/comon/themes/light_theme.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
-import '../../bloc/dictionary_bloc.dart';
-
-import '../../utils/constatnts.dart';
-
 import 'widgets/dict_list.dart';
 import 'widgets/from_to_button.dart';
-import 'widgets/highlight_text.dart';
 
 class Dictionary extends StatefulWidget {
+  static const id = 'dictionary';
   @override
   _DictionaryState createState() => _DictionaryState();
 }

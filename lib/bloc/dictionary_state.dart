@@ -34,29 +34,7 @@ class DictionaryState {
       translation: Languages.english,
     );
   }
-  // factory DictionaryState.submitting(
-  //     {@required List<Word> wordList, Languages translation}) {
-  //   return DictionaryState(
-  //     wordList: wordList,
-  //     search: '',
-  //     isSubmiting: true,
-  //     isSuccess: false,
-  //     isFailure: false,
-  //     errorMessage: '',
-  //     translation: Languages.english,
-  //   );
-  // }
-  // factory DictionaryState.success({@required List<Word> wordList}) {
-  //   return DictionaryState(
-  //     wordList: wordList,
-  //     search: '',
-  //     isSubmiting: false,
-  //     isSuccess: true,
-  //     isFailure: false,
-  //     errorMessage: '',
-  //     translation: Languages.english,
-  //   );
-  // }
+
   factory DictionaryState.failure(
       {@required @required List<Word> wordList,
       @required String errorMessage}) {

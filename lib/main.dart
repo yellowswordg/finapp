@@ -1,9 +1,11 @@
 import 'package:finapp/bloc/dictionary_bloc.dart';
 import 'package:finapp/repositories/dict/dict_repository.dart';
-import 'package:finapp/screens/dictionary/dictionary.dart';
-import 'package:finapp/utils/constatnts.dart';
+import 'package:finapp/routes.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+
+import 'ui/comon/themes/light_theme.dart';
+import 'ui/screens/dictionary/dictionary.dart';
 
 void main() {
   runApp(MyApp());
@@ -16,20 +18,14 @@ class MyApp extends StatelessWidget {
       providers: [
         BlocProvider(
           create: (context) => DictionaryBloc(DictRepository()),
-        )
+        ),
       ],
       child: MaterialApp(
+        initialRoute: RouteGenerator.dictionary,
+        onGenerateRoute: RouteGenerator.generateRoute,
         debugShowCheckedModeBanner: false,
-        title: 'Flutter Demo',
-        theme: ThemeData.light().copyWith(
-          primaryColor: Colors.white,
-          scaffoldBackgroundColor: kLightBlue,
-
-          // appBarTheme: AppBarTheme(color: Colors.white),
-          primaryTextTheme: TextTheme(
-            headline6: TextStyle(color: Colors.grey),
-          ),
-        ),
+        title: 'finword',
+        theme: lightTheme,
         home: Dictionary(),
       ),
     );

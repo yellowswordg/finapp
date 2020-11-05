@@ -1,5 +1,5 @@
 import 'package:finapp/size_config.dart';
-import 'package:finapp/utils/constatnts.dart';
+import 'package:finapp/ui/comon/themes/light_theme.dart';
 import 'package:flutter/material.dart';
 
 class TableBackground extends StatelessWidget {
