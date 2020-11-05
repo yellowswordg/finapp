@@ -37,10 +37,10 @@ class _DictionaryState extends State<Dictionary> {
     // double defaultSize = SizeConfig.defaultSize;
     return BlocConsumer<DictionaryBloc, DictionaryState>(
       listener: (context, state) {
-        
         controller = TextEditingController(text: state.search);
         controller.selection = TextSelection.fromPosition(
-            TextPosition(offset: controller.text.length));
+          TextPosition(offset: controller.text.length),
+        );
         if (state.isFailure) {
           showDialog(
             context: context,
@@ -86,7 +86,6 @@ class _DictionaryState extends State<Dictionary> {
                   context
                       .bloc<DictionaryBloc>()
                       .add(DictionaryTranslationUpdated(translation: value));
-                  
                 },
               ),
               SizedBox(
